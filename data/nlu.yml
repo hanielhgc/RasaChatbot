@@ -1,0 +1,121 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - ei
+    - olá
+    - oi
+    - e aí
+    - bom dia
+    - boa noite
+    - oie
+    - e aí cara
+    - boa tarde
+    - alguem aí
+    - olá, como você vai
+    - como vai você
+    - tudo na boa
+
+- intent: goodbye
+  examples: |
+    - boa tarde
+    - até
+    - tchau
+    - até mais tarde
+    - boa noite
+    - até mais
+    - tchauzinho
+    - tenha um bom dia
+    - te vejo mais tarde
+    - tchau tchau
+    - até a próxima
+    - falou
+    - adeus
+    - fui
+    - vou sair
+    - estou saindo
+
+- intent: affirm
+  examples: |
+    - sim
+    - aham
+    - de fato
+    - claro
+    - parece bom
+    - correto
+    - s
+    - ss
+
+- intent: deny
+  examples: |
+    - não
+    - n
+    - nn
+    - nunca
+    - acho que não
+    - discordo
+    - não gosto disso
+    - de jeito nenhum
+    - não mesmo
+
+- intent: mood_great
+  examples: |
+    - perfeito
+    - ótimo
+    - incrível
+    - maravilhoso
+    - me sinto bem
+    - estou me sentindo bem
+    - estou ótimo
+    - estou muito bem
+    - extremamente bem
+    - tão bem
+
+- intent: mood_unhappy
+  examples: |
+    - meu dia foi ruim
+    - tive um dia ruim
+    - tive um dia difícil
+    - tive um dia horrível
+    - estou triste
+    - não me sinto muito bem
+    - não estou muito bem
+    - estou desapontado
+    - super triste
+    - tô tão triste
+    - triste
+    - muito triste
+    - infeliz
+    - nada bem
+    - não muito bem
+    - extremamente mal
+    - extremamente triste
+    - tão triste
+
+- intent: bot_challenge
+  examples: |
+    - você é um bot?
+    - você é um robô?
+    - você é humano?
+    - estou falando com um bot?
+    - estou falando com um robô?
+    - estou falando com um humano?
+
+- intent: identidade_bot
+  examples: |
+    - qual é o seu nome?
+    - o que você é?
+    - como você se chama?
+    - quem é você?
+
+- intent: pesquisa
+  examples: |
+    - pesquise
+
+- intent: introduce
+  examples: |
+    - eu me chamo
+    - me chame
+    - me chamo
+    - meu nome é

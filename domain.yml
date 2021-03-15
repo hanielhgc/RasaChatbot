@@ -1,0 +1,50 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - identidade_bot
+  - pesquisa
+  - introduce
+
+actions:
+  - action_pesquisa
+
+responses:
+  utter_greet:
+  - text: "Oi, como vai?"
+
+  utter_cheer_up:
+  - text: "Aqui vai algo pra te animar:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Isso ajudou?"
+
+  utter_happy:
+  - text: "Legal, prossiga."
+
+  utter_goodbye:
+  - text: "Tchau"
+
+  utter_iamabot:
+  - text: "Soum um robô, criado por Haniel G. C."
+
+  utter_identidade_bot:
+  - text: "Sou Luppar, o assistente tira-dúvidas do MACC!"
+
+  utter_introduce:
+  - text: "Certo!"
+
+#  utter_pesquisa:
+#  - text: "Fazendo pesquisa..."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
