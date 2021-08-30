@@ -119,3 +119,683 @@ nlu:
     - me chame
     - me chamo
     - meu nome é
+
+
+#exclusivo do MACC
+
+- intent: objetivo_macc
+  examples: |
+    - qual é o objetivo do programa de pós-graduação na UECE?
+    - qual o objetivo do PPGCC?
+
+- intent: idade_macc
+  examples: |
+    - quando foi aprovado a modalidade de mestrado academico?
+    - ha quanto tempo a uece oferta mestrado academico
+    - qual a idade do macc
+
+
+- intent: coordena_linhas_pesquisa
+  examples: |
+    - quem coordena as linhas de pesquisa do programa?
+
+
+- intent: cria_linhas_pesquisa
+  examples: |
+    - quem pode propor novas linhas de pesquisa para o programa?
+    - quem pode criar novas linhas de pesquisa dentro do programa de mestrado?
+
+- intent: localizacao_campus
+  examples: |
+    - qual a localização do campus?
+    - onde fica a UECE?
+    - qual o endereço da UECE?
+    - como faço para chegar na UECE?
+
+
+- intent: contato_ppgcc
+  examples: |
+    - quais os contatos do PPGCC?
+    - como faço para entrar em contato com o PPGCC?
+    - qual o teefone do MACC?
+    - qual o e-mail do MACC?
+    - qual o contato do MACC?
+    - me passa o contato do MACC
+    - me envia por favor o contato do MACC
+
+- intent: que_colegiado
+  examples: |
+    - quem são os membros do colegiado do PPGCC?
+    - quem faz parte do colegiado do PPGCC?
+    - o que é o colegiado?
+
+- intent: tempo_colegiado
+  examples: |
+    - quanto tempo dura o mandato do presidente do colegiado?
+    - qual periodo de mandato dos membros do colegiado?
+    - de quanto em quanto tempo muda o presidente do colegiado?
+
+- intent: discente_colegiado
+  examples: |
+    - tem algum criterio para [aluno](aluno) fazer parte do colegiado? qual criterio?
+    - quero fazer parte do colegiado como [aluno](aluno), o que preciso fazer?
+    - como posso me tornar representante discente?
+    - quero ser representante no colegiado, o que devo fazer?
+
+- synonym: aluno
+  examples: |
+    - aluno
+    - discente
+    - estudante
+
+- intent: reuniao_colegiado
+  examples: |
+    - quando o colegiado se reune?
+    - quando tem reunião do colegiado?
+    - faço parte do colegiado e quero solicitar uma reunião, o que devo fazer?
+
+- intent: destituir_coordenador
+  examples: |
+    - quem pode aprovar a remoção e destituir coordenador do PPGCC?
+    - como podemos trocar de coordenador?
+    - é possivel destituir o coordenador?
+
+- intent: colegiado_criterios_bolsas
+  examples: |
+    - quem define os criterios para concessão de bolsas aos alunos?
+
+- intent: membros_colegiado
+  examples: |
+    - quais são os membros do colegiado do Programa de pós-graduação em ciência da computação?
+    - quem sao os membros do colegiado?
+    - quem compõe o colegiado?
+
+
+- intent: quem_vota_coordenador
+  examples: |
+    - quem pode votar nas eleições para coordenador?
+
+- intent: mandato_coordenador
+  examples: |
+    - o coordenador e vice-coordenador podem ser reeleitos por quantos mandatos?
+    - quantos mandatos pode ter um coordenador?
+    - quantas vezes um coordenador pode ser reeleito?
+    - qual é o número máximo de mandatos que um coordenador pode ter?
+    - podem o coordenador e vice-coordenador serem reeleitos?
+    - quanto tempo dura o mandato de um coordenador?
+    - qual a duração de um mandato de coordenador?
+    - de quanto em quanto tempo muda o coordenador?
+
+- intent: vacancia_vicecoordenador
+  examples: |
+    - caso ocorra vacância do vice-coordenador quem será escolhido para assumir o cargo?
+    - o que acontece se o coordenador e o vice-coordenador saem?
+
+- intent: coordenador_ppgcc
+  examples: |
+    - quem é o coordenador do PPGCC?
+    - quem é o coordenador?
+    - quem é o coordenador atual?
+
+- intent: vicecoordenador_ppgcc
+  examples: |
+    - quem é o vice-coordenador do PPGCC?
+    - quem é o vice-coordenador?
+    - quem é o vice-coordenador atual?
+
+
+- intent: compoe_comissao_bolsas
+  examples: |
+    - quais os membros da comissão de bolsas do PPGCC?
+    - quem compoe a comissão de bolsas do PPGCC?
+
+- intent: aproveitar_disciplinas
+  examples: |
+    - se eu já tiver cursado [disciplinas](disciplinas) em outros programas como faço para reaproveitar?
+    - como faço para reaproveitar [cadeiras](disciplinas) ?
+    - caso eu ja tenha cursado [disciplinas](disciplinas) em outros programas como faço para reaproveitar?
+    - como faço para aproveitar as [cadeiras](disciplinas) que já fiz?
+
+- synonym: disciplina
+  examples: |
+    - disciplina
+    - cadeira
+
+- synonym: disciplinas
+  examples: |
+    - disciplinas
+    - cadeiras
+    - materias
+
+- intent: definir_curriculo
+  examples: |
+    - quem define o currículo do PPGCC?
+    - a quem cabe a função de alterar o currículo do curso?
+    - quem define a matriz curricular?
+
+- intent: readmissao
+  examples: |
+    - estou desligado do programa, quero voltar a cursar o que devo fazer?
+    - como faço para solicitar readmissão?
+
+- intent: composicao_comissao
+  examples: |
+    - quem são os membros da comissão de pós-graduação?
+    - oq que é comissão de pós-graduação?
+    - quem compõe a comissão de pós-graduação?
+
+
+- intent: quem_corpo_docente
+  examples: |
+    - quem pode constituir o corpo docente?
+    - o que é um corpo docente?
+    - corpo docente?
+    - qual a definição de corpo docente?
+    - o que é corpo docente?
+    - quem faz parte do corpo docente?
+
+- intent: definicao_comissao
+  examples: |
+    - o que é a comissão de Pós-graduação?
+
+- intent: funcoes_comissao
+  examples: |
+    - quais as funções da comissão de Pós-graduação?
+    - o que faz a comissão de pós-graduação?
+
+
+- intent: processo_corpo_docente
+  examples: |
+    - como são escolhidos os membros do corpo docente?
+    - como posso me tornar professor da UECE?
+    - como se tornar docente na UECE?
+
+- intent: vagas_ppgcc
+  examples: |
+    - quem decide o numero de vagas do PPGCC?
+###
+
+- intent: disciplinas_aluno_especial
+  examples: |
+    - quantas [disciplinas](disciplinas) um aluno especial pode pagar por semestre?
+    - quantas [cadeiras](disciplinas) pode fazer um aluno especial em um semestre?
+
+
+- intent: requisitos_aluno_especial
+  examples: |
+    - quem pode pleitear a condição de aluno especial?
+    - quem pode se tornar aluno especial?
+    - quem pode entrar como aluno especial?
+    - como sei se posso me tornar aluno especial?
+    - quais os requisitos para que me candidate a uma vaga como aluno especial?
+
+
+- intent: aluno_especial_vira_regular
+  examples: |
+    - eu era aluno especial agora sou aluno regular, posso aproveitar as [disciplinas](disciplinas) que eu tinha feito antes?
+    - o que acontece quando um aluno especial se torna aluno regular?
+
+- intent: aproveitamento_desligamento
+  examples: |
+    - posso aproveitar as [disciplinas](disciplinas) que eu cursei antes do desligamento do programa?
+    - posso aproveitar as cadeiras que fiz antes do desligamento do programa?
+
+
+- intent: documentos_readmissao
+  examples: |
+    - qual documentos preciso para solicitar readmissão ao programa?
+    - quais são os documentos necessários pra readmissão?
+    - para ser readmitido que documentos devo apresentar?
+
+
+- intent: ingresso_pgcc
+  examples: |
+    - como se ingressa no PPGCC?
+    - faço para entrar no PPGCC?
+
+
+- intent: requisito_ingresso_mestrado
+  examples: |
+    - quem pode se inscrever para a seleção de mestrado?
+    - quais os requisitos para entrar na seleção do mestrado?
+    - qual o requerimento para que eu possa me inscrever no mestrado?
+    - qual a exigência mínima para entrar no programa?
+
+
+- intent: escolha_orientador
+  examples: |
+    - como é escolhido o meu orientador do programa?
+    - quem escolhe um orientador pra mim?
+
+- intent: trocar_orientador
+  examples: |
+    - após ter sido escolhido meu orientador eu posso trocar de orientador?
+    - posso trocar de orientador?
+    - é possível mudar de orientador?
+    - como faço para trocar de orientador?
+
+- intent: coorientador
+  examples: |
+    - posso ter [co-orientador](co-orientador) ?
+    - é possível ter um [co-orientador](co-orientador)?
+
+
+- synonym: co-orientador
+  examples: |
+    - coorientador
+    - co-orientador
+    - co orientador
+
+
+- intent: quantos_orientandos
+  examples: |
+    - quantos orientandos pode-se ter cada orientador?
+    - quantas pessoas podem ser orientadas pelo mesmo orientador?
+
+- intent: oferta_disciplinas
+  examples: |
+    - quem define quais [disciplinas](disciplinas) são ofertadas durante o periodo?
+    - como são definidas as [cadeiras](disciplinas) do semestre?
+    - como são definidas as [disciplinas](disciplinas) ofertadas?
+
+- intent: carga_horaria_minima
+  examples: |
+    - qual a carga horaria minima de um aluno do PPGCC para concluir o mestrado?
+    - quantos créditos preciso para me formar no mestrado?
+
+- intent: trancamento_matricula
+  examples: |
+    - como funciona o trancamento?
+    - quando posso trancar a matrícula?
+    - por quano tempo posso trancar minha matrícula?
+
+- intent: tempo_dissertacao
+  examples: |
+    - tenho quanto tempo para apresentar a proposta de dissertação de mestrado?
+    - em quanto tempo o aluno deverá fazer a dissertação?
+
+- intent: artigo_dissertacao
+  examples: |
+    - caso eu publique um artigo isso pode ser usado como qualificação da dissertação?
+    - um artigo pode ser usado como dissertação do mestrado?
+
+- intent: prorrogacao_mestrado
+  examples: |
+    - o tempo de mestrado pode ser prorrogado?
+    - por quanto tempo posso prorrogar o tempo do meu mestrado?
+
+- intent: caso_nao_defenda
+  examples: |
+    - se eu não conseguir defender a dissertação no tempo previsto o que acontece?
+    - o que acontecerá se a dissertação não for defendida dentro do prazo?
+    - o que acontece se eu não cumprir o prazo para defender a dissertação?
+
+
+- intent: trancar_disciplina
+  examples: |
+    - como eu faço para trancar uma [disciplina](disciplina) ?
+    - como eu tranco uma [cadeira](disciplina) ?
+    - posso trancar uma [disciplina](disciplina) ?
+    - é possível fazer reajuste na matrícula?
+
+
+- intent: disciplinas_mestrado
+  examples: |
+    - quais [disciplinas] (disciplinas) posso cursar no mestrado?
+    - que [disciplinas](disciplinas) estão disponíveis no mestrado?
+    - quais são as [cadeiras](disciplinas) que posso fazer no mestrado?
+
+- intent: reprovacao_falta
+  examples: |
+    - qual a porcentagem de [frequencia](frequencia) que devo ter em cada [disciplina](disciplina) ?
+    - qual a [frequência](frequencia) mínima para passar nas [disciplinas](disciplinas) ?
+    - quantos dias posso faltar aula em uma [disciplina](disciplinas) ?
+    - serei reprovado com quantas faltas?
+
+- synonym: frequencia
+  examples: |
+    - presença
+    - frequencia
+
+- intent: media_aprovacao
+  examples: |
+    - qual média devo obter para ser aprovado em uma [disciplina](disciplina) ?
+    - qual a média para aprovação numa [cadeira](disciplina) ?
+    - qual média devo ter para passar numa [disciplina](disciplina) ?
+
+- intent: avaliacao_desempenho
+  examples: |
+    - como é avaliado o desempenho nas [disciplinas](disciplinas) ?
+
+- intent: reprovacoes
+  examples: |
+    - posso reprovar em quantas [materias](disciplinas) por semestre?
+    - quantas [disciplinas](disciplinas) posso reprovar?
+    - quantas [cadeiras](disciplinas) posso reprovar?
+    - o que acontece se eu for reprovado?
+
+- intent: criterios_defesa
+  examples: |
+    - quais os criterios para que eu possa apresentar meu trabalho de conclusão?
+    - quando posso apresentar minha dissertação?
+    - quando um aluno poderá defender sua dissertação?
+    - quais as exigencias para que eu possa solicitar a defesa da dissertação de mestrado?
+
+- intent: composicao_banca
+  examples: |
+    - de quem é composta a banca examinadora do trabalho de conclusão?
+    - quem são os membros da banca examinadora da dissertação?
+    - quem vai avaliar a minha dissertação?
+
+
+- intent: duracao_defesa
+  examples: |
+    - quanto tempo tenho para apresentar meu trabalho de conclusão?
+    - quanto tempo dura uma defesa de dissertação?
+
+- intent: dissertacao_ingles
+  examples: |
+    - posso escrever minhas dissertação em inglês?
+
+- intent: requisitos_formacao
+  examples: |
+    - quais as condições para requesitar o titulo de mestre?
+    - quais os requisitos para eu me formar?
+    - o que preciso fazer para me formar?
+
+#
+
+- intent: horario
+  examples: |
+    - Qual o horário das aulas?
+    - em qual horário acontece as aulas do macc
+    - onde obtenho os horários de aulas
+
+
+
+- intent: relatorio_semestral
+  examples: |
+    - Onde consigo o modelo do relatório semestral?
+    - Onde posso obter o modelo de relatório do mestrado
+    - Onde encontro os modelos de relatórios do programa?
+
+
+
+
+- intent: horario_macc
+  examples: |
+    - Qual o horário de funcionamento do MACC?
+    - O prédio do PPGCC fica aberto até que horas?
+    - O MACC abre no final de semana?
+
+
+
+- intent: laboratorios
+  examples: |
+    - Posso ter uma cópia da chave do laboratório do MACC?
+    - Posso dormir no MACC?
+    - Posso levar comida para os laboratórios do MACC?
+    - Tive que fazer um trabalho até tarde da noite no MACC, posso dormir lá visto que já é tarde da noite?
+    - Esqueci de entregar a chave do MACC, e sem querer levei para casa, o que eu faço?
+    - Posso utilizar os equipamentos do MACC em outro lugar?
+
+
+
+
+- intent: ouvintes
+  examples: |
+    - posso assistir aulas das disciplinas como ouvinte?
+    - Posso levar parentes, amigos, ouvintes, etc... para assistir aulas no MACC
+    - Posso assistir as disciplinas como ouvinte?
+
+
+
+
+- intent: calendario_academico
+  examples: |
+    - Quando começa as aulas do mestrado?
+    - Quando começa as aulas do doutorado?",
+    - Até quando posso trancar uma disciplina no qual estou matriculado?
+    - Qual a data da matrícula?
+    - Quando começam as férias?
+
+
+
+
+- intent: linhas_pesquisa
+  examples: |
+    - Quais as linhas de pesquisa do ppgcc?
+    - Onde posso encontrar os professores de cada linhas de pesquisa?
+    - Quem são os professores que atuam na linha de pesquisa de [redes de computadores](linha_pesquisa) ?
+    - Quem são os professores que atuam na linha de pesquisa de [algoritmos](linha_pesquisa) ?
+    - Quem são os professores que atuam na linha de pesquisa de [engenharia de software](linha_pesquisa) ?
+    - quais as linhas de pesquisa são estudadas atualmente no PPGCC?
+    - quais são as linhas de pesquisa do MACC?
+    - quais são as linhas de pesquisa do PPGCC?
+    - quais as areas de pesquisa do PPGCC?
+    - quais as subareas da computação disponiveis para o mestrado?
+
+- lookup: linha_pesquisa
+  examples: |
+    - redes de computadores
+    - algoritmos
+    - engenharia de software
+
+
+- intent: autorizacao_coordenacao
+  examples: |
+    - Posso entrar com minha bicicleta no MACC?",
+    - Posso levar animais para o MACC?"
+
+
+- intent: aluno_especial
+  examples: |
+    - osso ser aluno especial?
+    - como faço para cursar disciplinas como aluno especial?
+    - como faço para ser aluno especial?
+    - Estou na graduação, posso cursar disciplinas do mestrado?
+
+
+
+
+- intent: cursos_ppgcc
+  examples: |
+    - Que cursos o PPGCC oferece
+    - Quais cursos são ofertados no programa
+    - modalidades de ensino do programa?
+
+
+
+- intent: capes
+  examples: |
+    - o qeu significa CAPES
+    - qual significado de CAPES
+    - significado de CAPES
+
+
+
+
+
+
+- intent: profissional_academico
+  examples: |
+    - Qual a diferença entre mestrado acadêmico e mestrado profissional e entre um doutorado acadêmico e um doutorado profissional?
+    - Qual a diferença entre mestrado acadêmico e mestrado profissional
+    - Qual a diferença entre doutorado acadêmico e doutorado profissional
+
+
+
+
+
+- intent: doutorado_mestrado
+  examples: |
+    - Quais as diferenças entre os cursos de mestrado acadêmico e de doutorado acadêmico?
+    - Quais as diferenças entre os cursos de mestrado e de doutorado?
+
+
+
+
+- intent: apenas_academia
+  examples: |
+    - Mestrados e doutorados acadêmicos servem apenas para quem deseja trabalhar na academia?
+    - Mestrados e doutorados acadêmicos servem apenas para quem deseja dar aula?
+
+
+
+
+- intent: diferença_cursos
+  examples: |
+    - Qual a diferença entre programas de pós-graduação em “Sistemas de Informação”, “Ciência da Computação”, “Informática”, “Computação Aplicada” etc.?
+
+
+
+
+- intent: saber_programar
+  examples: |
+    - Tenho que saber programar para cursar o mestrado ou o doutorado do PPGCC?
+    - Tenho que saber programar para cursar o mestrado ou o doutorado
+
+
+
+- intent: dedicacao_parcial
+  examples: |
+    - É necessária dedicação exclusiva ou integral para cursar o mestrado ou o doutorado?
+    - é possível cursar o mestrado e o doutorado do PPGCC em dedicação parcial?
+    - posso fazer mestrado enquanto trabalho?
+
+
+
+- intent: disciplina_noite
+  examples: |
+    - Não é prevista nenhuma disciplina no período noturno para o curso de mestrado e de doutorado do PPGCC?
+    - disciplina no período noturno para o curso de mestrado e de doutorado do PPGCC
+    - O curso é somente diurno?
+
+
+
+- intent: proficiencia_ingles
+  examples: |
+    - É necessário possuir algum certificado de proficiência em língua inglesa (por exemplo, TOEFL) para fazer o curso de mestrado e de doutorado?
+    - É necessário possuir algum certificado de proficiência em língua inglesa
+
+
+
+
+- intent: escolher_projeto
+  examples: |
+    - Como escolho meu projeto de pesquisa para meu curso de mestrado ou de doutorado?
+    - como escolher meu projeto de pesquisa
+    - Como posso ter uma ideia mais clara do que é um projeto de pesquisa e uma dissertação em nível de mestrado e de doutorado na área
+
+
+
+
+
+- intent: patentes
+  examples: |
+    - Patentes e produção de software equivalem-se a artigos, no escopo de meu curso de mestrado ou de doutorado?
+
+
+
+- intent: graduado_computacao
+  examples: |
+    - É necessário ser graduado em Ciência da Computação ou Sistemas de Informação para cursar o mestrado?
+    - preciso ser graduado em computacao para fazer o mestrado?
+    - preciso ser graduado sistemas de informação para entrar no mestrado?
+    - preciso ter feito computação para entrar no mestrado?
+
+
+
+- intent: ead
+  examples: |
+    - Os cursos de mestrado e de doutorado do PPgSI podem ser realizados a distância?
+
+
+- intent: tema_dissertacao
+  examples: |
+    - Posso fazer minha dissertacao sobre [blockchain](tema)
+    - Posso fazer minha dissertacao sobre [PLN](tema)
+    - Posso fazer minha dissertacao sobre [visao computacional](tema)
+    - Posso fazer minha dissertacao sobre [IA](tema)
+    - O tema da minha dissertacao pode ser sobre [blockchain](tema)
+    - O tema da minha dissertacao pode ser sobre [PLN](tema)
+    - O tema da minha dissertacao pode ser sobre [visao computacional](tema)
+    - O tema da minha dissertacao pode ser sobre [IA](tema)
+
+
+- lookup: tema
+  examples: |
+    - sistemas distribuidos
+    - inteligencia artificial
+    - agentes conversacionais
+    - sistemas multiagente
+    - engenharia de software
+
+
+- intent: carteirinha
+  examples: |
+    - como solicito a carteirinha de estudante?
+    - como solicito a carteira de estudante?
+    - como consigo minha carteira de estudante?
+    - como consigo minha carteirinha de estudante?
+    - como faço para conseguir minha carteira de estudante?
+
+
+- intent: taxa_inscricao
+  examples: |
+    - de quanto é a taxa de inscrição para o mestrado?
+    - tem taxa de inscrição para o mestrado?
+    - Quanto custa para fazer o teste para o mestrado?
+    - o processo de seleção tem taxa?
+
+- intent: mudar_linha_pesquisa
+  examples: |
+    - posso mudar minha linha de pesquisa durante o curso?
+    - após ter escolhido minha linha de pesquisa posso alterar?
+    - é possivel mudar a linha de pesquisa?
+    - posso alterar a linha de pesquisa da minha dissertação?
+
+- intent: requerimentos_bolsa
+  examples: |
+    - o que preciso fazer para conseguir uma bolsa?
+    - como obter bolsa de estudos?
+    - quais os requerimentos para solicitar bolsa de estudos?
+    - o que devo fazer para obter bolsa de estudos?
+    - como consigo uma bolsa de estudos?
+
+- intent: quanto_bolsa
+  examples: |
+    - qual é o valor da bolsa de estudos?
+    - quanto ganha um bolsista?
+    - de quanto é a bolsa?
+
+- intent: ru
+  examples: |
+    - a UECE possui ru?
+    - a UECE tem RU?
+    - a UECE tem restaurante universitário?
+    - tem restaurante universitário na UECE?
+    - tem RU na UECE?
+    - quanto custa o almoço no RU?
+    - qual o cardápio do RU?
+    - quais as opções do RU?
+    - quem pode comer no restaurante universitário?
+
+
+- intent: funcao
+  examples: |
+    - quais as funções do [coordenador](coordenador) ?
+    - qual a função do [coordenador](coordenador)?
+    - para que serve o [coordenador](coordenador)?
+    - o que faz um [coordenador](coordenador)
+    - quais as funções do [vice-coordenador](vice-coordenador)?
+    - qual a função do [vice-coordenador](vice-coordenador)?
+    - para que serve o [vice-coordenador](vice-coordenador)?
+    - o que faz um [vice-coordenador](vice-coordenador)?
+    - quais as funções da [comissão de pós-graduação](comissão_de_pos_graduacao)?
+    - para que serve a [comissão de bolsas](comissao_de_bolsas)?
+    - qual a função da [comissão de bolsas](comissao_de_bolsas)?
+    - o que faz a [comissão de bolsas](comissao_de_bolsas)?
+    - quais as competencias do [orientador](orientador)?
+    - para que serve um [orientador](orientador)?
+    - o que faz um [orientador](prientador)?

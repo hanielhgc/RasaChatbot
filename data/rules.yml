@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: pedir para reescrever quando há baixa confiança no NLU
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nao_entendi

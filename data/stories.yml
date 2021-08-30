@@ -43,3 +43,509 @@ stories:
   steps:
     - intent: introduce
     - action: utter_introduce
+
+
+- story: r01
+  steps:
+  - intent: objetivo_macc
+  - action: utter_objetivo_macc
+
+
+- story: r02
+  steps:
+  - intent: idade_macc
+  - action: utter_idade_macc
+
+
+- story: r03
+  steps:
+  - intent: coordena_linhas_pesquisa
+  - action: utter_coordena_linhas_pesquisa
+
+- story: r05
+  steps:
+  - intent: cria_linhas_pesquisa
+  - action: utter_cria_linhas_pesquisa
+
+
+- story: r06
+  steps:
+  - intent: localizacao_campus
+  - action: utter_localizacao_campus
+
+
+- story: r08
+  steps:
+  - intent: contato_ppgcc
+  - action: utter_contato_ppgcc
+
+
+- story: r09
+  steps:
+  - intent: que_colegiado
+  - action: utter_que_colegiado
+
+
+- story: r10
+  steps:
+  - intent: tempo_colegiado
+  - action: utter_tempo_colegiado
+
+
+- story: r11
+  steps:
+  - intent: discente_colegiado
+  - action: utter_discente_colegiado
+
+
+- story: r12
+  steps:
+  - intent: reuniao_colegiado
+  - action: utter_reuniao_colegiado
+
+- story: r13
+  steps:
+  - intent: destituir_coordenador
+  - action: utter_destituir_coordenador
+
+- story: r14
+  steps:
+  - intent: colegiado_criterios_bolsas
+  - action: utter_colegiado_criterios_bolsas
+
+- story: r15
+  steps:
+  - intent: membros_colegiado
+  - action: utter_membros_colegiado
+
+- story: r16
+  steps:
+  - intent: quem_vota_coordenador
+  - action: utter_quem_vota_coordenador
+
+- story: r17
+  steps:
+  - intent: mandato_coordenador
+  - action: utter_mandato_coordenador
+
+- story: r18
+  steps:
+  - intent: vacancia_vicecoordenador
+  - action: utter_vacancia_vicecoordenador
+
+- story: r19
+  steps:
+  - intent: coordenador_ppgcc
+  - action: utter_coordenador_ppgcc
+
+- story: r20
+  steps:
+  - intent: vicecoordenador_ppgcc
+  - action: utter_vicecoordenador_ppgcc
+
+- story: r21
+  steps:
+  - intent: funcao_coordenador
+  - action: utter_funcao_coordenador
+
+- story: r22
+  steps:
+  - intent: funcao_vicecoordenador
+  - action: utter_funcao_vicecoordenador
+
+- story: r23
+  steps:
+  - intent: compoe_comissao_bolsas
+  - action: utter_compoe_comissao_bolsas
+
+- story: r24
+  steps:
+  - intent: aproveitar_disciplinas
+  - action: utter_aproveitar_disciplinas
+
+- story: r25
+  steps:
+  - intent: definir_curriculo
+  - action: utter_definir_curriculo
+
+- story: r26
+  steps:
+  - intent: readmissao
+  - action: utter_readmissao
+
+- story: r28
+  steps:
+  - intent: composicao_comissao
+  - action: utter_composicao_comissao
+
+- story: r30
+  steps:
+  - intent: funcao_comissao
+  - action: utter_funcao_comissao
+
+- story: r32
+  steps:
+  - intent: quem_corpo_docente
+  - action: utter_quem_corpo_docente
+
+- story: r33
+  steps:
+  - intent: definicao_comissao
+  - action: utter_definicao_comissao
+
+- story: r35
+  steps:
+  - intent: funcoes_comissao
+  - action: utter_funcoes_comissao
+
+- story: r37
+  steps:
+  - intent: funcao_comissao_bolsas
+  - action: utter_funcao_comissao_bolsas
+
+- story: r39
+  steps:
+  - intent: processo_corpo_docente
+  - action: utter_processo_corpo_docente
+
+- story: r40
+  steps:
+  - intent: vagas_ppgcc
+  - action: utter_vagas_ppgcc
+
+- story: r41
+  steps:
+  - intent: disciplinas_aluno_especial
+  - action: utter_disciplinas_aluno_especial
+
+- story: r42
+  steps:
+  - intent: requisitos_aluno_especial
+  - action: utter_requisitos_aluno_especial
+
+- story: r43
+  steps:
+  - intent: aluno_especial_vira_regular
+  - action: utter_aluno_especial_vira_regular
+
+- story: r44
+  steps:
+  - intent: aproveitamento_desligamento
+  - action: utter_aproveitamento_desligamento
+
+- story: r45
+  steps:
+  - intent: documentos_readmissao
+  - action: utter_documentos_readmissao
+
+- story: r46
+  steps:
+  - intent: ingresso_pgcc
+  - action: utter_ingresso_pgcc
+
+- story: r47
+  steps:
+  - intent: requisito_ingresso_mestrado
+  - action: utter_requisito_ingresso_mestrado
+
+- story: r48
+  steps:
+  - intent: escolha_orientador
+  - action: utter_escolha_orientador
+
+- story: r49
+  steps:
+  - intent: trocar_orientador
+  - action: utter_trocar_orientador
+
+- story: r50
+  steps:
+  - intent: coorientador
+  - action: utter_coorientador
+
+- story: r51
+  steps:
+  - intent: competencias_orientador
+  - action: utter_competencias_orientador
+
+- story: r52
+  steps:
+  - intent: quantos_orientandos
+  - action: utter_quantos_orientandos
+
+- story: r53
+  steps:
+  - intent: oferta_disciplinas
+  - action: utter_oferta_disciplinas
+
+- story: r54
+  steps:
+  - intent: carga_horaria_minima
+  - action: utter_carga_horaria_minima
+
+- story: r55
+  steps:
+  - intent: trancamento_matricula
+  - action: utter_trancamento_matricula
+
+- story: r56
+  steps:
+  - intent: tempo_dissertacao
+  - action: utter_tempo_dissertacao
+
+- story: r57
+  steps:
+  - intent: artigo_dissertacao
+  - action: utter_artigo_dissertacao
+
+- story: r58
+  steps:
+  - intent: prorrogacao_mestrado
+  - action: utter_prorrogacao_mestrado
+
+- story: r59
+  steps:
+  - intent: caso_nao_defenda
+  - action: utter_caso_nao_defenda
+
+- story: r60
+  steps:
+  - intent: trancar_disciplina
+  - action: utter_trancar_disciplina
+
+- story: r61
+  steps:
+  - intent: reprovacao_falta
+  - action: utter_reprovacao_falta
+
+- story: r62
+  steps:
+  - intent: media_aprovacao
+  - action: utter_media_aprovacao
+
+- story: r63
+  steps:
+  - intent: avaliacao_desempenho
+  - action: utter_avaliacao_desempenho
+
+- story: r64
+  steps:
+  - intent: reprovacoes
+  - action: utter_reprovacoes
+
+- story: r65
+  steps:
+  - intent: criterios_defesa
+  - action: utter_criterios_defesa
+
+- story: r66
+  steps:
+  - intent: composicao_banca
+  - action: utter_composicao_banca
+
+- story: r67
+  steps:
+  - intent: duracao_defesa
+  - action: utter_duracao_defesa
+
+- story: r68
+  steps:
+  - intent: dissertacao_ingles
+  - action: utter_dissertacao_ingles
+
+- story: r69
+  steps:
+  - intent: requisitos_formacao
+  - action: utter_requisitos_formacao
+
+- story: r70
+  steps:
+  - intent: horario
+  - action: utter_horario
+
+- story: r71
+  steps:
+  - intent: relatorio_semestral
+  - action: utter_relatorio_semestral
+
+- story: r72
+  steps:
+  - intent: horario_macc
+  - action: utter_horario_macc
+
+- story: r73
+  steps:
+  - intent: laboratorios
+  - action: utter_laboratorios
+
+- story: r74
+  steps:
+  - intent: ouvintes
+  - action: utter_ouvintes
+
+- story: r75
+  steps:
+  - intent: calendario_academico
+  - action: utter_calendario_academico
+
+- story: r76
+  steps:
+  - intent: linhas_pesquisa
+  - action: utter_linhas_pesquisa
+
+- story: r77
+  steps:
+  - intent: autorizacao_coordenacao
+  - action: utter_autorizacao_coordenacao
+
+- story: r78
+  steps:
+  - intent: aluno_especial
+  - action: utter_aluno_especial
+
+- story: r79
+  steps:
+  - intent: cursos_ppgcc
+  - action: utter_cursos_ppgcc
+
+- story: r80
+  steps:
+  - intent: capes
+  - action: utter_capes
+
+- story: r81
+  steps:
+  - intent: profissional_academico
+  - action: utter_profissional_academico
+
+- story: r82
+  steps:
+  - intent: doutorado_mestrado
+  - action: utter_doutorado_mestrado
+
+- story: r83
+  steps:
+  - intent: apenas_academia
+  - action: utter_apenas_academia
+
+- story: r84
+  steps:
+  - intent: diferença_cursos
+  - action: utter_diferença_cursos
+
+- story: r85
+  steps:
+  - intent: saber_programar
+  - action: utter_saber_programar
+
+- story: r86
+  steps:
+  - intent: dedicacao_parcial
+  - action: utter_dedicacao_parcial
+
+- story: r87
+  steps:
+  - intent: disciplina_noite
+  - action: utter_disciplina_noite
+
+- story: r88
+  steps:
+  - intent: proficiencia_ingles
+  - action: utter_proficiencia_ingles
+
+- story: r89
+  steps:
+  - intent: escolher_projeto
+  - action: utter_escolher_projeto
+
+- story: r90
+  steps:
+  - intent: patentes
+  - action: utter_patentes
+
+- story: r91
+  steps:
+  - intent: graduado_computacao
+  - action: utter_graduado_computacao
+
+- story: r92
+  steps:
+  - intent: ead
+  - action: utter_ead
+
+
+- story: r93
+  steps:
+  - intent: tema_dissertacao
+  - action: utter_tema_dissertacao
+
+- story: r94
+  steps:
+  - intent: carteirinha
+  - action: utter_carteirinha
+
+- story: r95
+  steps:
+    - intent: taxa_inscricao
+    - action: utter_taxa_inscricao
+
+
+- story: r96
+  steps:
+    - intent: mudar_linha_pesquisa
+    - action: utter_mudar_linha_pesquisa
+
+
+- story: r97
+  steps:
+    - intent: requerimentos_bolsa
+    - action: utter_requerimentos_bolsa
+
+- story: r98
+  steps:
+    - intent: quanto_bolsa
+    - action: utter_quanto_bolsa
+
+- story: r99
+  steps:
+    - intent: ru
+    - action: utter_ru
+
+#- story: r100
+#  steps:
+#    - intent: presidente
+#      entities:
+#       - Lula
+#    - action: utter_presidente_lula
+#      entities:
+#       - Temer
+#    - action: utter_presidente_temer
+#      entities:
+#       - Bolsonaro
+#    - action: utter_presidente_bolsonaro
+
+
+
+
+- story: r101
+  steps:
+    - intent: funcao
+      entities:
+        - coordenador
+    - action: utter_funcao_coordenador
+    - intent: funcao
+      entities:
+        - vice-coordenador
+    - action: utter_funcao_vicecoordenador
+    - intent: funcao
+      entities:
+        - comissão_de_pos_graduacao
+    - action: utter_funcao_comissao
+    - intent: funcao
+      entities:
+        - comissao_de_bolsas
+    - action: utter_funcao_comissao_bolsas
+    - intent: funcao
+      entities:
+        - orientador
+    - action: utter_competencias_orientador
