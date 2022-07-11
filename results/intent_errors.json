@@ -1,0 +1,42 @@
+[
+  {
+    "text": "o que acontece quando um aluno especial se torna aluno regular?",
+    "intent": "aluno_especial_vira_regular",
+    "intent_prediction": {
+      "name": "aluno_especial",
+      "confidence": 0.2998907268047333
+    }
+  },
+  {
+    "text": "caso eu publiquei um artigo isso pode ser usado como qualifica\u00e7\u00e3o da disserta\u00e7\u00e3o?",
+    "intent": "artigo_dissertacao",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.20468772947788239
+    }
+  },
+  {
+    "text": "um artigo pode ser usado como proposta de disserta\u00e7\u00e3o do mestrado?",
+    "intent": "artigo_dissertacao",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1844722032546997
+    }
+  },
+  {
+    "text": "como deve ser o artigo para qualifica\u00e7\u00e3o do mestrado?",
+    "intent": "artigo_dissertacao",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1581200510263443
+    }
+  },
+  {
+    "text": "qual deve ser a qualis do artigo para servir como qualifica\u00e7\u00e3o?",
+    "intent": "artigo_dissertacao",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1708897054195404
+    }
+  }
+]

@@ -1,0 +1,2649 @@
+[
+  {
+    "text": "sim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "sim",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9971418976783752,
+        "value": "sim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "s",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "s",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.99534010887146,
+        "value": "s",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ss",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ss",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9968518614768982,
+        "value": "ss",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "n\u00e3o",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "n\u00e3o",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9907870888710022,
+        "value": "n\u00e3o",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "n",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "n",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9891223311424255,
+        "value": "n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "nn",
+        "entity": "simnao"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "simnao",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9880293011665344,
+        "value": "nn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tem algum criterio para aluno fazer parte do colegiado? qual criterio?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "value": "aluno",
+        "entity": "aluno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "aluno",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.97505784034729,
+        "value": "aluno",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quero fazer parte do colegiado como aluno, o que preciso fazer?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "aluno",
+        "entity": "aluno"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "aluno",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.9749019145965576,
+        "value": "aluno",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "caso ocorra vac\u00e2ncia do vice-coordenador quem ser\u00e1 escolhido para assumir o cargo?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 40,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 24,
+        "end": 40,
+        "confidence_entity": 0.9980072379112244,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que acontece se o coordenador e o vice-coordenador saem?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "coordenador",
+        "entity": "coordenador"
+      },
+      {
+        "start": 36,
+        "end": 52,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9973565340042114,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "vice-coordenador",
+        "start": 36,
+        "end": 52,
+        "confidence_entity": 0.9982547163963318,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "e se n\u00e3o houver nem coordenador nem vice-coordenador?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "coordenador",
+        "entity": "coordenador"
+      },
+      {
+        "start": 36,
+        "end": 52,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9982002973556519,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "vice-coordenador",
+        "start": 36,
+        "end": 52,
+        "confidence_entity": 0.9977686405181885,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que acontece se tanto o coordenador como o vice-coordenador perderem o cargo?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 37,
+        "value": "coordenador",
+        "entity": "coordenador"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9973843693733215,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "vice-coordenador",
+        "start": 45,
+        "end": 61,
+        "confidence_entity": 0.9985352754592896,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o vice-coordenador do PPGCC?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 9,
+        "end": 25,
+        "confidence_entity": 0.9984607696533203,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o vice-coordenador?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 9,
+        "end": 25,
+        "confidence_entity": 0.9989126920700073,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o vice-coordenador atual?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 9,
+        "end": 25,
+        "confidence_entity": 0.9985828399658203,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o coordenador do PPGCC?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9981046915054321,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o coordenador?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9980033040046692,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem \u00e9 o coordenador atual?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9982725381851196,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual \u00e9 o nome do coordenador?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.9971554279327393,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem ocupa o cargo de vice-coordenador?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 22,
+        "end": 38,
+        "confidence_entity": 0.998684823513031,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "se eu j\u00e1 tiver cursado disciplinas em outros programas como fa\u00e7o para reaproveitar?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 34,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 23,
+        "end": 34,
+        "confidence_entity": 0.9996587038040161,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como fa\u00e7o para reaproveitar cadeiras ?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.9971141815185547,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "caso eu ja tenha cursado disciplinas em outros programas como fa\u00e7o para reaproveitar?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 25,
+        "end": 36,
+        "confidence_entity": 0.999680757522583,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como fa\u00e7o para aproveitar as cadeiras que j\u00e1 fiz?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9993258714675903,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "posso reaproveitar disciplinas conclu\u00eddas?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 30,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 19,
+        "end": 30,
+        "confidence_entity": 0.9996827840805054,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como fazer para reaproveitar uma cadeira ?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "value": "cadeira",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.9970995187759399,
+        "value": "disciplina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o que devo fazer para reaproveitar uma disciplina ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 49,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 39,
+        "end": 49,
+        "confidence_entity": 0.9569888114929199,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como algu\u00e9m pode se tornar membro do corpo docente?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 50,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 37,
+        "end": 50,
+        "confidence_entity": 0.9968913197517395,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantas disciplinas um aluno especial pode pagar por semestre?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.9994761347770691,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantas cadeiras um aluno especial pode fazer em um semestre?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9996575117111206,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quantas cadeiras posso fazer por semestre sendo aluno especial?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9996472597122192,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quantas cadeiras posso pagar por semestre como aluno especial?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9996480941772461,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "qual \u00e9 a quantidade m\u00e1xima de cadeiras que um aluno especial pode fazer em um semestre?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9996341466903687,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "qual \u00e9 a quantidade m\u00e1xima de disciplinas que um aluno especial pode cursar?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 41,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 30,
+        "end": 41,
+        "confidence_entity": 0.9996991157531738,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "eu era aluno especial agora sou aluno regular, posso aproveitar as disciplinas que eu tinha feito antes?",
+    "entities": [
+      {
+        "start": 67,
+        "end": 78,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 67,
+        "end": 78,
+        "confidence_entity": 0.9994865655899048,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso aproveitar as cadeiras quando eu era aluno especial?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.999685525894165,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "eu consigo aproveitar as disciplinas feitas como aluno especial quando me torno aluno regular?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 25,
+        "end": 36,
+        "confidence_entity": 0.9996834993362427,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso aproveitar as disciplinas que eu cursei antes do desligamento do programa?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9997155070304871,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso aproveitar as cadeiras que fiz antes do desligamento do programa?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9995111227035522,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ap\u00f3s o desligamento posso aproveitar as disciplinas que fiz antes?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 51,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 40,
+        "end": 51,
+        "confidence_entity": 0.9996775388717651,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "se eu tiver conclu\u00eddo disciplinas antes do desligamento do programa posso aproveitar depois?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.9997159838676453,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso ter co-orientador ?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "co-orientador",
+        "entity": "co-orientador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "co-orientador",
+        "start": 10,
+        "end": 23,
+        "confidence_entity": 0.9930720925331116,
+        "value": "co-orientador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u00e9 poss\u00edvel ter um co-orientador?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "co-orientador",
+        "entity": "co-orientador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "co-orientador",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9922950267791748,
+        "value": "co-orientador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem define quais disciplinas s\u00e3o ofertadas durante o periodo?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.9995555281639099,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como s\u00e3o definidas as cadeiras do semestre?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9995495676994324,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "como s\u00e3o definidas as disciplinas ofertadas?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.999624490737915,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem define as disciplinas de cada semestre?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.9996185302734375,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como eu fa\u00e7o para trancar uma disciplina ?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 40,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.9669529795646667,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como eu tranco uma cadeira ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "cadeira",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9975334405899048,
+        "value": "disciplina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "posso trancar uma disciplina ?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.9734392762184143,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trancamento de cadeiras",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9960480332374573,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "trancar disciplinas",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.9984214305877686,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quero trancar uma cadeira",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "cadeira",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9974368214607239,
+        "value": "disciplina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "como funciona o trancamento de disciplinas?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 42,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.9986662864685059,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como funciona o trancamento de matr\u00edcula?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 40,
+        "value": "matr\u00edcula",
+        "entity": "matr\u00edcula"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "matr\u00edcula",
+        "start": 31,
+        "end": 40,
+        "confidence_entity": 0.9864565134048462,
+        "value": "matr\u00edcula",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "at\u00e9 quando posso trancar a matr\u00edcula?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "matr\u00edcula",
+        "entity": "matr\u00edcula"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "matr\u00edcula",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9890494346618652,
+        "value": "matr\u00edcula",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "por quano tempo posso trancar minha matr\u00edcula?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 45,
+        "value": "matr\u00edcula",
+        "entity": "matr\u00edcula"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "matr\u00edcula",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.9879549741744995,
+        "value": "matr\u00edcula",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais disciplinas posso cursar no mestrado?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 6,
+        "end": 17,
+        "confidence_entity": 0.9995570778846741,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "que disciplinas est\u00e3o dispon\u00edveis no mestrado?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.999546468257904,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais s\u00e3o as cadeiras que posso fazer no mestrado?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9995607733726501,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "onde posso encontrar a lista de cadeiras ofertadas?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.9995915293693542,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que cadeiras tem no mestrado?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9995551705360413,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "qual a porcentagem de frequencia que devo ter em cada disciplina ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "frequencia",
+        "entity": "frequencia"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "frequencia",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9860846996307373,
+        "value": "frequencia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disciplina",
+        "start": 54,
+        "end": 64,
+        "confidence_entity": 0.9686058163642883,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a frequ\u00eancia m\u00ednima para passar nas disciplinas ?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "frequ\u00eancia",
+        "entity": "frequencia"
+      },
+      {
+        "start": 41,
+        "end": 52,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "frequencia",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.9887210726737976,
+        "value": "frequ\u00eancia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disciplinas",
+        "start": 41,
+        "end": 52,
+        "confidence_entity": 0.9990409016609192,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantos dias posso faltar aula em uma disciplina ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 48,
+        "value": "disciplina",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 38,
+        "end": 48,
+        "confidence_entity": 0.6672589182853699,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual m\u00e9dia devo obter para ser aprovado em uma disciplina ?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 57,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 47,
+        "end": 57,
+        "confidence_entity": 0.9915708303451538,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a m\u00e9dia para aprova\u00e7\u00e3o numa cadeira ?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "value": "cadeira",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.9985383749008179,
+        "value": "disciplina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "qual m\u00e9dia devo ter para passar numa disciplina ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 37,
+        "end": 47,
+        "confidence_entity": 0.9873409867286682,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual deve ser minha nota para passar na disciplina ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 50,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 40,
+        "end": 50,
+        "confidence_entity": 0.9723353385925293,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual \u00e9 a m\u00e9dia para passar numa disciplina?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 42,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 32,
+        "end": 42,
+        "confidence_entity": 0.9869829416275024,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como \u00e9 avaliado o desempenho nas disciplinas ?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 33,
+        "end": 44,
+        "confidence_entity": 0.9996015429496765,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como se avalia o desempenho nas disciplinas ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 43,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 32,
+        "end": 43,
+        "confidence_entity": 0.9995978474617004,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantas provas tem em cada disciplina?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.9588935375213623,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como eu sei se passei em uma disciplina?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 39,
+        "value": "disciplina",
+        "entity": "disciplina"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplina",
+        "start": 29,
+        "end": 39,
+        "confidence_entity": 0.9758820533752441,
+        "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso reprovar em quantas materias por semestre?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "materias",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9988659620285034,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quantas disciplinas posso reprovar?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.9996737241744995,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantas cadeiras posso reprovar?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "cadeiras",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9994065761566162,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "de quem \u00e9 composta a banca examinadora do trabalho de conclus\u00e3o?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9979236125946045,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem s\u00e3o os membros da banca examinadora da disserta\u00e7\u00e3o?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9973695278167725,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como \u00e9 composta a banca de defesa?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9979395270347595,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem ser\u00e3o os membros da minha banca?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.9947108030319214,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quantos professores tem numa banca?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9967622756958008,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como s\u00e3o decididos os membros da banca de avalia\u00e7\u00e3o?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "banca",
+        "entity": "banca"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "banca",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9977458119392395,
+        "value": "banca",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como fa\u00e7o para cursar disciplinas como aluno especial?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.9995874762535095,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Estou na gradua\u00e7\u00e3o, posso cursar disciplinas do mestrado?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 33,
+        "end": 44,
+        "confidence_entity": 0.9996119141578674,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Posso fazer minha dissertacao sobre blockchain",
+    "entities": [
+      {
+        "start": 36,
+        "end": 46,
+        "value": "blockchain",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.9971505999565125,
+        "value": "blockchain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Posso fazer minha dissertacao sobre PLN",
+    "entities": [
+      {
+        "start": 36,
+        "end": 39,
+        "value": "PLN",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 36,
+        "end": 39,
+        "confidence_entity": 0.9918248057365417,
+        "value": "PLN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Posso fazer minha dissertacao sobre visao computacional",
+    "entities": [
+      {
+        "start": 36,
+        "end": 55,
+        "value": "visao computacional",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 36,
+        "end": 55,
+        "confidence_entity": 0.983852744102478,
+        "value": "visao computacional",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Posso fazer minha dissertacao sobre IA",
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "value": "IA",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 36,
+        "end": 38,
+        "confidence_entity": 0.9890802502632141,
+        "value": "IA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O tema da minha dissertacao pode ser sobre blockchain",
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "value": "blockchain",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.9979660511016846,
+        "value": "blockchain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O tema da minha dissertacao pode ser sobre PLN",
+    "entities": [
+      {
+        "start": 43,
+        "end": 46,
+        "value": "PLN",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.9953563809394836,
+        "value": "PLN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O tema da minha dissertacao pode ser sobre visao computacional",
+    "entities": [
+      {
+        "start": 43,
+        "end": 62,
+        "value": "visao computacional",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 43,
+        "end": 62,
+        "confidence_entity": 0.9895590543746948,
+        "value": "visao computacional",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O tema da minha dissertacao pode ser sobre IA",
+    "entities": [
+      {
+        "start": 43,
+        "end": 45,
+        "value": "IA",
+        "entity": "tema"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tema",
+        "start": 43,
+        "end": 45,
+        "confidence_entity": 0.9933305382728577,
+        "value": "IA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais as fun\u00e7\u00f5es do coordenador ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9930964112281799,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a fun\u00e7\u00e3o do coordenador?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.9959893822669983,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "para que serve o coordenador?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.995331346988678,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que faz um coordenador",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "coordenador",
+        "entity": "coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "coordenador",
+        "start": 13,
+        "end": 24,
+        "confidence_entity": 0.993594229221344,
+        "value": "coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais as fun\u00e7\u00f5es do vice-coordenador?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 36,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 20,
+        "end": 36,
+        "confidence_entity": 0.9967421889305115,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a fun\u00e7\u00e3o do vice-coordenador?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 17,
+        "end": 33,
+        "confidence_entity": 0.9981324076652527,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "para que serve o vice-coordenador?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 17,
+        "end": 33,
+        "confidence_entity": 0.9977905750274658,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que faz um vice-coordenador?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "vice-coordenador",
+        "entity": "vice-coordenador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "vice-coordenador",
+        "start": 13,
+        "end": 29,
+        "confidence_entity": 0.997285008430481,
+        "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais as fun\u00e7\u00f5es da comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 45,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "entity": "comissao_pos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_pos",
+        "start": 20,
+        "end": 45,
+        "confidence_entity": 0.4322645962238312,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "para que serve a comiss\u00e3o de bolsas?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "value": "comiss\u00e3o de bolsas",
+        "entity": "comissao_de_bolsas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_de_bolsas",
+        "start": 17,
+        "end": 35,
+        "confidence_entity": 0.3816105127334595,
+        "value": "comiss\u00e3o de bolsas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a fun\u00e7\u00e3o da comiss\u00e3o de bolsas?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "value": "comiss\u00e3o de bolsas",
+        "entity": "comissao_de_bolsas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_de_bolsas",
+        "start": 17,
+        "end": 35,
+        "confidence_entity": 0.3931208550930023,
+        "value": "comiss\u00e3o de bolsas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que faz a comiss\u00e3o de bolsas?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "value": "comiss\u00e3o de bolsas",
+        "entity": "comissao_de_bolsas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_de_bolsas",
+        "start": 12,
+        "end": 30,
+        "confidence_entity": 0.37146034836769104,
+        "value": "comiss\u00e3o de bolsas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais as competencias do orientador?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "orientador",
+        "entity": "orientador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "orientador",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.9833130240440369,
+        "value": "orientador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "para que serve um orientador?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "orientador",
+        "entity": "orientador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "orientador",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.9892413020133972,
+        "value": "orientador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que faz um orientador?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "orientador",
+        "entity": "orientador"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "orientador",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.9833278059959412,
+        "value": "orientador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem s\u00e3o os membros da comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 48,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "entity": "comissao_pos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_pos",
+        "start": 23,
+        "end": 48,
+        "confidence_entity": 0.42911097407341003,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem comp\u00f5e a comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 39,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "entity": "comissao_pos"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_pos",
+        "start": 14,
+        "end": 39,
+        "confidence_entity": 0.4088180661201477,
+        "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem pode constituir o corpo docente?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 23,
+        "end": 36,
+        "confidence_entity": 0.9974883794784546,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que \u00e9 um corpo docente?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 11,
+        "end": 24,
+        "confidence_entity": 0.9973305463790894,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual a defini\u00e7\u00e3o de corpo docente?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 33,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 20,
+        "end": 33,
+        "confidence_entity": 0.997333288192749,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que \u00e9 corpo docente?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.9972378015518188,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem faz parte do corpo docente?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "corpo docente",
+        "entity": "corpo_docente"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "corpo_docente",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9965225458145142,
+        "value": "corpo docente",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem s\u00e3o os membros do colegiado do PPGCC?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "colegiado",
+        "entity": "colegiado"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "colegiado",
+        "start": 23,
+        "end": 32,
+        "confidence_entity": 0.9747819304466248,
+        "value": "colegiado",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem faz parte do colegiado do PPGCC?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "colegiado",
+        "entity": "colegiado"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "colegiado",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9735060334205627,
+        "value": "colegiado",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "o que \u00e9 o colegiado?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "colegiado",
+        "entity": "colegiado"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "colegiado",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.9792813062667847,
+        "value": "colegiado",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais os membros da comiss\u00e3o de bolsas do PPGCC?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "value": "comiss\u00e3o de bolsas",
+        "entity": "comissao_bolsas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_de_bolsas",
+        "start": 20,
+        "end": 38,
+        "confidence_entity": 0.3927454948425293,
+        "value": "comiss\u00e3o de bolsas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quem compoe a comiss\u00e3o de bolsas do PPGCC?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 32,
+        "value": "comiss\u00e3o de bolsas",
+        "entity": "comissao_bolsas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comissao_de_bolsas",
+        "start": 14,
+        "end": 32,
+        "confidence_entity": 0.3609011769294739,
+        "value": "comiss\u00e3o de bolsas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
