@@ -9,25 +9,25 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+#- story: sad path 1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_happy
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+#- story: sad path 2
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: deny
+#  - action: utter_goodbye
 
 - story: identidade do bot
   steps:
@@ -49,481 +49,542 @@ stories:
   steps:
   - intent: objetivo_macc
   - action: utter_objetivo_macc
+#  - checkpoint: user_feedback
 
 
 - story: r02
   steps:
   - intent: idade_macc
   - action: utter_idade_macc
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r03
   steps:
   - intent: coordena_linhas_pesquisa
   - action: utter_coordena_linhas_pesquisa
-
-- story: r05
-  steps:
-  - intent: cria_linhas_pesquisa
-  - action: utter_cria_linhas_pesquisa
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r06
   steps:
   - intent: localizacao_campus
   - action: utter_localizacao_campus
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
+- story: check_user_feedback
+  steps:
+    - checkpoint: user_feedback
+    - action: utter_ask_feedback
+    - or:
+        - intent: affirm
+        - intent: deny
+    - action: utter_after_feedback
 
 - story: r08
   steps:
   - intent: contato_ppgcc
   - action: utter_contato_ppgcc
-
-
-- story: r09
-  steps:
-  - intent: que_colegiado
-  - action: utter_que_colegiado
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r10
   steps:
   - intent: tempo_colegiado
   - action: utter_tempo_colegiado
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r11
   steps:
   - intent: discente_colegiado
   - action: utter_discente_colegiado
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r12
   steps:
   - intent: reuniao_colegiado
   - action: utter_reuniao_colegiado
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r13
   steps:
   - intent: destituir_coordenador
   - action: utter_destituir_coordenador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r14
   steps:
   - intent: colegiado_criterios_bolsas
   - action: utter_colegiado_criterios_bolsas
-
-- story: r15
-  steps:
-  - intent: membros_colegiado
-  - action: utter_membros_colegiado
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r16
   steps:
   - intent: quem_vota_coordenador
   - action: utter_quem_vota_coordenador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r17
   steps:
   - intent: mandato_coordenador
   - action: utter_mandato_coordenador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r18
   steps:
   - intent: vacancia_vicecoordenador
   - action: utter_vacancia_vicecoordenador
-
-- story: r19
-  steps:
-  - intent: coordenador_ppgcc
-  - action: utter_coordenador_ppgcc
-
-- story: r20
-  steps:
-  - intent: vicecoordenador_ppgcc
-  - action: utter_vicecoordenador_ppgcc
-
-- story: r21
-  steps:
-  - intent: funcao_coordenador
-  - action: utter_funcao_coordenador
-
-- story: r22
-  steps:
-  - intent: funcao_vicecoordenador
-  - action: utter_funcao_vicecoordenador
-
-- story: r23
-  steps:
-  - intent: compoe_comissao_bolsas
-  - action: utter_compoe_comissao_bolsas
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r24
   steps:
   - intent: aproveitar_disciplinas
   - action: utter_aproveitar_disciplinas
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r25
   steps:
   - intent: definir_curriculo
   - action: utter_definir_curriculo
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r26
   steps:
   - intent: readmissao
   - action: utter_readmissao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r28
-  steps:
-  - intent: composicao_comissao
-  - action: utter_composicao_comissao
-
-- story: r30
-  steps:
-  - intent: funcao_comissao
-  - action: utter_funcao_comissao
-
-- story: r32
-  steps:
-  - intent: quem_corpo_docente
-  - action: utter_quem_corpo_docente
-
-- story: r33
-  steps:
-  - intent: definicao_comissao
-  - action: utter_definicao_comissao
-
-- story: r35
-  steps:
-  - intent: funcoes_comissao
-  - action: utter_funcoes_comissao
-
-- story: r37
-  steps:
-  - intent: funcao_comissao_bolsas
-  - action: utter_funcao_comissao_bolsas
+#- story: r33
+#  steps:
+#  - intent: definicao_comissao
+#  - action: utter_definicao_comissao
+#  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r39
   steps:
   - intent: processo_corpo_docente
   - action: utter_processo_corpo_docente
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r40
   steps:
   - intent: vagas_ppgcc
   - action: utter_vagas_ppgcc
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r41
   steps:
   - intent: disciplinas_aluno_especial
   - action: utter_disciplinas_aluno_especial
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r42
-  steps:
-  - intent: requisitos_aluno_especial
-  - action: utter_requisitos_aluno_especial
 
 - story: r43
   steps:
   - intent: aluno_especial_vira_regular
   - action: utter_aluno_especial_vira_regular
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r44
   steps:
   - intent: aproveitamento_desligamento
   - action: utter_aproveitamento_desligamento
-
-- story: r45
-  steps:
-  - intent: documentos_readmissao
-  - action: utter_documentos_readmissao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r46
   steps:
   - intent: ingresso_pgcc
   - action: utter_ingresso_pgcc
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r47
   steps:
   - intent: requisito_ingresso_mestrado
   - action: utter_requisito_ingresso_mestrado
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r48
   steps:
   - intent: escolha_orientador
   - action: utter_escolha_orientador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
+
 
 - story: r49
   steps:
   - intent: trocar_orientador
   - action: utter_trocar_orientador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
+
 
 - story: r50
   steps:
   - intent: coorientador
   - action: utter_coorientador
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r51
-  steps:
-  - intent: competencias_orientador
-  - action: utter_competencias_orientador
 
 - story: r52
   steps:
   - intent: quantos_orientandos
   - action: utter_quantos_orientandos
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
+
 
 - story: r53
   steps:
   - intent: oferta_disciplinas
   - action: utter_oferta_disciplinas
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r54
   steps:
   - intent: carga_horaria_minima
   - action: utter_carga_horaria_minima
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r55
-  steps:
-  - intent: trancamento_matricula
-  - action: utter_trancamento_matricula
 
 - story: r56
   steps:
   - intent: tempo_dissertacao
   - action: utter_tempo_dissertacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r57
   steps:
   - intent: artigo_dissertacao
   - action: utter_artigo_dissertacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r58
-  steps:
-  - intent: prorrogacao_mestrado
-  - action: utter_prorrogacao_mestrado
+#- story: r58
+#  steps:
+#  - intent: prorrogacao_mestrado
+#  - action: utter_prorrogacao_mestrado
+#  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r59
   steps:
   - intent: caso_nao_defenda
   - action: utter_caso_nao_defenda
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r60
   steps:
-  - intent: trancar_disciplina
-  - action: utter_trancar_disciplina
+    - intent: trancamento
+      entities:
+        - disciplina
+    - action: utter_trancar_disciplina
+#    - checkpoint: user_feedback
+    - intent: trancamento
+      entities:
+        - matrícula
+    - action: utter_trancamento_matricula
+#    - checkpoint: user_feedback
+
 
 - story: r61
   steps:
   - intent: reprovacao_falta
   - action: utter_reprovacao_falta
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r62
   steps:
   - intent: media_aprovacao
   - action: utter_media_aprovacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r63
   steps:
   - intent: avaliacao_desempenho
   - action: utter_avaliacao_desempenho
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r64
   steps:
   - intent: reprovacoes
   - action: utter_reprovacoes
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r65
   steps:
   - intent: criterios_defesa
   - action: utter_criterios_defesa
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r66
   steps:
   - intent: composicao_banca
   - action: utter_composicao_banca
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r67
   steps:
   - intent: duracao_defesa
   - action: utter_duracao_defesa
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r68
   steps:
   - intent: dissertacao_ingles
   - action: utter_dissertacao_ingles
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r69
   steps:
   - intent: requisitos_formacao
   - action: utter_requisitos_formacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r70
   steps:
   - intent: horario
   - action: utter_horario
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r71
   steps:
   - intent: relatorio_semestral
   - action: utter_relatorio_semestral
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r72
   steps:
   - intent: horario_macc
   - action: utter_horario_macc
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r73
   steps:
   - intent: laboratorios
   - action: utter_laboratorios
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r74
   steps:
   - intent: ouvintes
   - action: utter_ouvintes
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r75
   steps:
   - intent: calendario_academico
   - action: utter_calendario_academico
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r76
   steps:
   - intent: linhas_pesquisa
   - action: utter_linhas_pesquisa
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r77
   steps:
   - intent: autorizacao_coordenacao
   - action: utter_autorizacao_coordenacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r78
   steps:
   - intent: aluno_especial
   - action: utter_aluno_especial
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
+
 
 - story: r79
   steps:
   - intent: cursos_ppgcc
   - action: utter_cursos_ppgcc
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
-- story: r80
-  steps:
-  - intent: capes
-  - action: utter_capes
+#- story: r80
+#  steps:
+#  - intent: capes
+#  - action: utter_capes
+#  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r81
   steps:
   - intent: profissional_academico
   - action: utter_profissional_academico
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r82
   steps:
   - intent: doutorado_mestrado
   - action: utter_doutorado_mestrado
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r83
   steps:
   - intent: apenas_academia
   - action: utter_apenas_academia
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r84
   steps:
   - intent: diferença_cursos
   - action: utter_diferença_cursos
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r85
   steps:
   - intent: saber_programar
   - action: utter_saber_programar
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r86
   steps:
   - intent: dedicacao_parcial
   - action: utter_dedicacao_parcial
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r87
   steps:
   - intent: disciplina_noite
   - action: utter_disciplina_noite
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r88
   steps:
   - intent: proficiencia_ingles
   - action: utter_proficiencia_ingles
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r89
   steps:
   - intent: escolher_projeto
   - action: utter_escolher_projeto
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r90
   steps:
   - intent: patentes
   - action: utter_patentes
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r91
   steps:
   - intent: graduado_computacao
   - action: utter_graduado_computacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r92
   steps:
   - intent: ead
   - action: utter_ead
-
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r93
   steps:
   - intent: tema_dissertacao
   - action: utter_tema_dissertacao
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r94
   steps:
   - intent: carteirinha
   - action: utter_carteirinha
+  - checkpoint: user_feedback
+#  - action: action_save_conversation
 
 - story: r95
   steps:
     - intent: taxa_inscricao
     - action: utter_taxa_inscricao
-
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
 
 - story: r96
   steps:
     - intent: mudar_linha_pesquisa
     - action: utter_mudar_linha_pesquisa
-
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
 
 - story: r97
   steps:
     - intent: requerimentos_bolsa
     - action: utter_requerimentos_bolsa
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
 
 - story: r98
   steps:
     - intent: quanto_bolsa
     - action: utter_quanto_bolsa
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
 
 - story: r99
   steps:
     - intent: ru
     - action: utter_ru
-
-#- story: r100
-#  steps:
-#    - intent: presidente
-#      entities:
-#       - Lula
-#    - action: utter_presidente_lula
-#      entities:
-#       - Temer
-#    - action: utter_presidente_temer
-#      entities:
-#       - Bolsonaro
-#    - action: utter_presidente_bolsonaro
-
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
 
 
 
@@ -533,19 +594,191 @@ stories:
       entities:
         - coordenador
     - action: utter_funcao_coordenador
+#    - checkpoint: user_feedback
     - intent: funcao
       entities:
         - vice-coordenador
     - action: utter_funcao_vicecoordenador
+#    - checkpoint: user_feedback
     - intent: funcao
       entities:
         - comissão_de_pos_graduacao
     - action: utter_funcao_comissao
+#    - checkpoint: user_feedback
     - intent: funcao
       entities:
         - comissao_de_bolsas
     - action: utter_funcao_comissao_bolsas
+#    - checkpoint: user_feedback
     - intent: funcao
       entities:
         - orientador
     - action: utter_competencias_orientador
+#    - checkpoint: user_feedback
+
+
+- story: r102
+  steps:
+    - intent: composicao
+      entities:
+        - comissao_pos
+    - action: utter_composicao_comissao
+#    - checkpoint: user_feedback
+    - intent: composicao
+      entities:
+        - corpo_docente
+    - action: utter_quem_corpo_docente
+#    - checkpoint: user_feedback
+    - intent: composicao
+      entities:
+        - colegiado
+    - action: utter_que_colegiado
+#    - checkpoint: user_feedback
+    - intent: composicao
+      entities:
+        - comissao_bolsas
+    - action: utter_compoe_comissao_bolsas
+#    - checkpoint: user_feedback
+
+
+- story: r103
+  steps:
+    - intent: thank1
+    - action: utter_thank1
+
+
+- story: r104
+  steps:
+    - intent: sisacadpg
+    - action: utter_sisacadpg
+    - checkpoint: user_feedback
+#    - action: action_save_conversation
+
+
+- story: r202
+  steps:
+    - intent: quem_e1
+      entities:
+        - vice-coordenador
+    - action: utter_vicecoordenador_ppgcc
+#    - checkpoint: user_feedback
+    - intent: quem_e1
+      entities:
+        - coordenador
+    - action: utter_coordenador_ppgcc
+#    - checkpoint: user_feedback
+    - intent: quem_e1
+      entities:
+        - secretario
+    - action: utter_secretario
+#    - checkpoint: user_feedback
+
+- story: r203
+  steps:
+    - intent: start
+    - action: utter_start
+
+
+- story: r204
+  steps:
+    - intent: perder_bolsa
+    - action: utter_perder_bolsa
+
+- story: r205
+  steps:
+    - intent: opiniao_bot
+    - action: utter_opiniao_bot
+
+- story: r206
+  steps:
+    - intent: seduc
+    - action: utter_seduc
+
+- story: r207
+  steps:
+    - intent: estagio_docencia
+    - action: utter_estagio_docencia
+
+- story: r208
+  steps:
+    - intent: declaracao_aprovacao
+    - action: utter_declaracao_aprovacao
+
+- story: r209
+  steps:
+    - intent: pre_matricula
+    - action: utter_pre_matricula
+
+- story: r210
+  steps:
+    - intent: falta_atestado
+    - action: utter_falta_atestado
+
+
+
+- story: r211
+  steps:
+    - intent: conceito_ppgcc
+    - action: utter_conceito_ppgcc
+
+
+
+- story: r212
+  steps:
+    - intent: sanduiche
+    - action: utter_sanduiche
+
+
+
+
+- story: r213
+  steps:
+    - intent: aula_graduacao
+    - action: utter_aula_graduacao
+
+
+- story: r214
+  steps:
+    - intent: ramal_secretaria
+    - action: utter_ramal_secretaria
+
+
+
+- story: r215
+  steps:
+    - intent: quando_edital
+    - action: utter_quando_edital
+
+
+
+
+- story: r216
+  steps:
+    - intent: lista_classificaveis
+    - action: utter_lista_classificaveis
+
+
+
+
+- story: r217
+  steps:
+    - intent: agendar_horario
+    - action: utter_agendar_horario
+
+
+- story: r218
+  steps:
+    - intent: ajuda_custo
+    - action: utter_ajuda_custo
+
+
+
+- story: r219
+  steps:
+    - intent: biblioteca
+    - action: utter_biblioteca
+
+- story: r220
+  steps:
+    - intent: salas
+    - action: utter_salas
