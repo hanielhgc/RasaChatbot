@@ -188,7 +188,7 @@ responses:
   - text: "Soum um robô, criado por Haniel G. C."
 
   utter_identidade_bot:
-  - text: "Sou Luppar, o assistente tira-dúvidas do MACC!"
+  - text: "Sou o CBot, o assistente tira-dúvidas do PPGCC!"
 
   utter_introduce:
   - text: "Certo!"
