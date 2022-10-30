@@ -1,42 +1,26 @@
 [
   {
-    "text": "o que acontece quando um aluno especial se torna aluno regular?",
+    "text": "posso aproveitar as cadeiras quando eu era aluno especial?",
     "intent": "aluno_especial_vira_regular",
     "intent_prediction": {
-      "name": "aluno_especial",
-      "confidence": 0.2998907268047333
+      "name": "disciplinas_aluno_especial",
+      "confidence": 0.1891535520553589
     }
   },
   {
-    "text": "caso eu publiquei um artigo isso pode ser usado como qualifica\u00e7\u00e3o da disserta\u00e7\u00e3o?",
-    "intent": "artigo_dissertacao",
+    "text": "\u00e9 poss\u00edvel ter um co-orientador?",
+    "intent": "coorientador",
     "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.20468772947788239
+      "name": "aproveitar_disciplinas",
+      "confidence": 0.1628466695547104
     }
   },
   {
-    "text": "um artigo pode ser usado como proposta de disserta\u00e7\u00e3o do mestrado?",
-    "intent": "artigo_dissertacao",
+    "text": "de quanto \u00e9 a bolsa?",
+    "intent": "quanto_bolsa",
     "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.1844722032546997
-    }
-  },
-  {
-    "text": "como deve ser o artigo para qualifica\u00e7\u00e3o do mestrado?",
-    "intent": "artigo_dissertacao",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.1581200510263443
-    }
-  },
-  {
-    "text": "qual deve ser a qualis do artigo para servir como qualifica\u00e7\u00e3o?",
-    "intent": "artigo_dissertacao",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.1708897054195404
+      "name": "perder_bolsa",
+      "confidence": 0.16422416269779205
     }
   }
 ]

@@ -1,42 +1,21 @@
 [
   {
-    "text": "quais os membros da comiss\u00e3o de bolsas do PPGCC?",
+    "text": "quantos dias posso faltar aula em uma disciplina ?",
     "entities": [
       {
-        "start": 20,
-        "end": 38,
-        "value": "comiss\u00e3o de bolsas",
-        "entity": "comissao_bolsas"
+        "start": 38,
+        "end": 48,
+        "value": "disciplina",
+        "entity": "disciplinas"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "comissao_de_bolsas",
-        "start": 20,
-        "end": 38,
-        "confidence_entity": 0.3927454948425293,
-        "value": "comiss\u00e3o de bolsas",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "quem compoe a comiss\u00e3o de bolsas do PPGCC?",
-    "entities": [
-      {
-        "start": 14,
-        "end": 32,
-        "value": "comiss\u00e3o de bolsas",
-        "entity": "comissao_bolsas"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "comissao_de_bolsas",
-        "start": 14,
-        "end": 32,
-        "confidence_entity": 0.3609011769294739,
-        "value": "comiss\u00e3o de bolsas",
+        "entity": "disciplina",
+        "start": 38,
+        "end": 48,
+        "confidence_entity": 0.5251968502998352,
+        "value": "disciplina",
         "extractor": "DIETClassifier"
       }
     ]

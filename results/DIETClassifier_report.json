@@ -1,5 +1,40 @@
 {
+  "vice-coordenador": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "comissao_de_bolsas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "matr\u00edcula": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "secretario": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
   "simnao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "banca": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -10,21 +45,7 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "aluno": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "vice-coordenador": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
+    "support": 6,
     "confused_with": {}
   },
   "coordenador": {
@@ -34,31 +55,31 @@
     "support": 11,
     "confused_with": {}
   },
-  "linha_pesquisa": {
+  "tema": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 7,
+    "support": 10,
     "confused_with": {}
   },
-  "banca": {
+  "frequencia": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 2,
     "confused_with": {}
   },
-  "disciplina": {
+  "corpo_docente": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14,
+    "support": 12,
     "confused_with": {}
   },
-  "comissao_de_bolsas": {
-    "precision": 0.6,
+  "comissao_pos": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.7499999999999999,
+    "f1-score": 1.0,
     "support": 9,
     "confused_with": {}
   },
@@ -69,46 +90,25 @@
     "support": 3,
     "confused_with": {}
   },
-  "corpo_docente": {
+  "linha_pesquisa": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 12,
+    "support": 7,
     "confused_with": {}
   },
-  "frequencia": {
+  "disciplina": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "aluno": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
-    "confused_with": {}
-  },
-  "tema": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "disciplinas": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "comissao_pos": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "matr\u00edcula": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
     "confused_with": {}
   },
   "co-orientador": {
@@ -118,31 +118,31 @@
     "support": 2,
     "confused_with": {}
   },
-  "comissao_bolsas": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 6,
+  "disciplinas": {
+    "precision": 1.0,
+    "recall": 0.975609756097561,
+    "f1-score": 0.9876543209876543,
+    "support": 41,
     "confused_with": {
-      "comissao_de_bolsas": 6
+      "disciplina": 1
     }
   },
   "micro avg": {
-    "precision": 0.9615384615384616,
-    "recall": 0.9615384615384616,
-    "f1-score": 0.9615384615384616,
-    "support": 156
+    "precision": 0.9938650306748467,
+    "recall": 0.9938650306748467,
+    "f1-score": 0.9938650306748467,
+    "support": 163
   },
   "macro avg": {
-    "precision": 0.9222222222222223,
-    "recall": 0.9444444444444444,
-    "f1-score": 0.9305555555555556,
-    "support": 156
+    "precision": 0.9962962962962963,
+    "recall": 0.9986449864498645,
+    "f1-score": 0.997398420131498,
+    "support": 163
   },
   "weighted avg": {
-    "precision": 0.9384615384615385,
-    "recall": 0.9615384615384616,
-    "f1-score": 0.9471153846153846,
-    "support": 156
+    "precision": 0.9942740286298568,
+    "recall": 0.9938650306748467,
+    "f1-score": 0.9939329358270195,
+    "support": 163
   }
 }

@@ -14,7 +14,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 3,
-        "confidence_entity": 0.9971418976783752,
+        "confidence_entity": 0.9950974583625793,
         "value": "sim",
         "extractor": "DIETClassifier"
       }
@@ -35,7 +35,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 1,
-        "confidence_entity": 0.99534010887146,
+        "confidence_entity": 0.9957732558250427,
         "value": "s",
         "extractor": "DIETClassifier"
       }
@@ -56,7 +56,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 2,
-        "confidence_entity": 0.9968518614768982,
+        "confidence_entity": 0.9949657320976257,
         "value": "ss",
         "extractor": "DIETClassifier"
       }
@@ -77,7 +77,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 3,
-        "confidence_entity": 0.9907870888710022,
+        "confidence_entity": 0.9935458302497864,
         "value": "n\u00e3o",
         "extractor": "DIETClassifier"
       }
@@ -98,7 +98,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 1,
-        "confidence_entity": 0.9891223311424255,
+        "confidence_entity": 0.9964439272880554,
         "value": "n",
         "extractor": "DIETClassifier"
       }
@@ -119,7 +119,7 @@
         "entity": "simnao",
         "start": 0,
         "end": 2,
-        "confidence_entity": 0.9880293011665344,
+        "confidence_entity": 0.9954598546028137,
         "value": "nn",
         "extractor": "DIETClassifier"
       }
@@ -133,6 +133,12 @@
         "end": 29,
         "value": "aluno",
         "entity": "aluno"
+      },
+      {
+        "start": 45,
+        "end": 54,
+        "value": "colegiado",
+        "entity": "colegiado"
       }
     ],
     "predicted_entities": [
@@ -140,15 +146,29 @@
         "entity": "aluno",
         "start": 24,
         "end": 29,
-        "confidence_entity": 0.97505784034729,
+        "confidence_entity": 0.9768749475479126,
         "value": "aluno",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "colegiado",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.9939903020858765,
+        "value": "colegiado",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "quero fazer parte do colegiado como aluno, o que preciso fazer?",
+    "text": "quero fazer parte do colegiado como aluno, como fa\u00e7o?",
     "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "colegiado",
+        "entity": "colegiado"
+      },
       {
         "start": 36,
         "end": 41,
@@ -158,11 +178,40 @@
     ],
     "predicted_entities": [
       {
+        "entity": "colegiado",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9955653548240662,
+        "value": "colegiado",
+        "extractor": "DIETClassifier"
+      },
+      {
         "entity": "aluno",
         "start": 36,
         "end": 41,
-        "confidence_entity": 0.9749019145965576,
+        "confidence_entity": 0.9731764793395996,
         "value": "aluno",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quero ser representante no colegiado, o que devo fazer?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "colegiado",
+        "entity": "colegiado"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "colegiado",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9964283108711243,
+        "value": "colegiado",
         "extractor": "DIETClassifier"
       }
     ]
@@ -182,7 +231,7 @@
         "entity": "vice-coordenador",
         "start": 24,
         "end": 40,
-        "confidence_entity": 0.9980072379112244,
+        "confidence_entity": 0.9988817572593689,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -209,7 +258,7 @@
         "entity": "coordenador",
         "start": 20,
         "end": 31,
-        "confidence_entity": 0.9973565340042114,
+        "confidence_entity": 0.9981865286827087,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       },
@@ -217,7 +266,7 @@
         "entity": "vice-coordenador",
         "start": 36,
         "end": 52,
-        "confidence_entity": 0.9982547163963318,
+        "confidence_entity": 0.9982672929763794,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -244,7 +293,7 @@
         "entity": "coordenador",
         "start": 20,
         "end": 31,
-        "confidence_entity": 0.9982002973556519,
+        "confidence_entity": 0.9984567165374756,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       },
@@ -252,7 +301,7 @@
         "entity": "vice-coordenador",
         "start": 36,
         "end": 52,
-        "confidence_entity": 0.9977686405181885,
+        "confidence_entity": 0.997879147529602,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -279,7 +328,7 @@
         "entity": "coordenador",
         "start": 26,
         "end": 37,
-        "confidence_entity": 0.9973843693733215,
+        "confidence_entity": 0.9981909394264221,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       },
@@ -287,7 +336,7 @@
         "entity": "vice-coordenador",
         "start": 45,
         "end": 61,
-        "confidence_entity": 0.9985352754592896,
+        "confidence_entity": 0.9984931945800781,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -308,7 +357,7 @@
         "entity": "vice-coordenador",
         "start": 9,
         "end": 25,
-        "confidence_entity": 0.9984607696533203,
+        "confidence_entity": 0.9988425970077515,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -329,7 +378,7 @@
         "entity": "vice-coordenador",
         "start": 9,
         "end": 25,
-        "confidence_entity": 0.9989126920700073,
+        "confidence_entity": 0.9983465671539307,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -350,7 +399,7 @@
         "entity": "vice-coordenador",
         "start": 9,
         "end": 25,
-        "confidence_entity": 0.9985828399658203,
+        "confidence_entity": 0.9987776875495911,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -371,7 +420,7 @@
         "entity": "coordenador",
         "start": 9,
         "end": 20,
-        "confidence_entity": 0.9981046915054321,
+        "confidence_entity": 0.9985985159873962,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -392,7 +441,7 @@
         "entity": "coordenador",
         "start": 9,
         "end": 20,
-        "confidence_entity": 0.9980033040046692,
+        "confidence_entity": 0.9980411529541016,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -413,7 +462,7 @@
         "entity": "coordenador",
         "start": 9,
         "end": 20,
-        "confidence_entity": 0.9982725381851196,
+        "confidence_entity": 0.9984399676322937,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -434,7 +483,7 @@
         "entity": "coordenador",
         "start": 17,
         "end": 28,
-        "confidence_entity": 0.9971554279327393,
+        "confidence_entity": 0.9974873065948486,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -455,8 +504,50 @@
         "entity": "vice-coordenador",
         "start": 22,
         "end": 38,
-        "confidence_entity": 0.998684823513031,
+        "confidence_entity": 0.9985604882240295,
         "value": "vice-coordenador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qual o nome do secret\u00e1rio?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "secret\u00e1rio",
+        "entity": "secretario"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "secretario",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.988484799861908,
+        "value": "secret\u00e1rio",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como se chama o secretario do ppgcc?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "secretario",
+        "entity": "secretario"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "secretario",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.9878822565078735,
+        "value": "secretario",
         "extractor": "DIETClassifier"
       }
     ]
@@ -476,7 +567,7 @@
         "entity": "disciplinas",
         "start": 23,
         "end": 34,
-        "confidence_entity": 0.9996587038040161,
+        "confidence_entity": 0.9989323019981384,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -497,7 +588,7 @@
         "entity": "disciplinas",
         "start": 28,
         "end": 36,
-        "confidence_entity": 0.9971141815185547,
+        "confidence_entity": 0.9917140603065491,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -521,7 +612,7 @@
         "entity": "disciplinas",
         "start": 25,
         "end": 36,
-        "confidence_entity": 0.999680757522583,
+        "confidence_entity": 0.9990532994270325,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -542,7 +633,7 @@
         "entity": "disciplinas",
         "start": 29,
         "end": 37,
-        "confidence_entity": 0.9993258714675903,
+        "confidence_entity": 0.9988560676574707,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -566,7 +657,7 @@
         "entity": "disciplinas",
         "start": 19,
         "end": 30,
-        "confidence_entity": 0.9996827840805054,
+        "confidence_entity": 0.9994620680809021,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -587,7 +678,7 @@
         "entity": "disciplina",
         "start": 33,
         "end": 40,
-        "confidence_entity": 0.9970995187759399,
+        "confidence_entity": 0.997549831867218,
         "value": "disciplina",
         "extractor": "DIETClassifier",
         "processors": [
@@ -611,8 +702,50 @@
         "entity": "disciplina",
         "start": 39,
         "end": 49,
-        "confidence_entity": 0.9569888114929199,
+        "confidence_entity": 0.9839861392974854,
         "value": "disciplina",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "vou poder aproveitar disciplinas de outro mestrado?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 21,
+        "end": 32,
+        "confidence_entity": 0.9994387030601501,
+        "value": "disciplinas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "posso aproveitar disciplinas que cursei em outro mestrado?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "disciplinas",
+        "entity": "disciplinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disciplinas",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.9994441866874695,
+        "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
     ]
@@ -632,7 +765,7 @@
         "entity": "corpo_docente",
         "start": 37,
         "end": 50,
-        "confidence_entity": 0.9968913197517395,
+        "confidence_entity": 0.9968143105506897,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -653,7 +786,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 19,
-        "confidence_entity": 0.9994761347770691,
+        "confidence_entity": 0.9988152980804443,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -674,7 +807,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 16,
-        "confidence_entity": 0.9996575117111206,
+        "confidence_entity": 0.9995540976524353,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -698,7 +831,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 16,
-        "confidence_entity": 0.9996472597122192,
+        "confidence_entity": 0.9995569586753845,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -722,7 +855,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 16,
-        "confidence_entity": 0.9996480941772461,
+        "confidence_entity": 0.9995710253715515,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -746,7 +879,7 @@
         "entity": "disciplinas",
         "start": 30,
         "end": 38,
-        "confidence_entity": 0.9996341466903687,
+        "confidence_entity": 0.9994785189628601,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -770,7 +903,7 @@
         "entity": "disciplinas",
         "start": 30,
         "end": 41,
-        "confidence_entity": 0.9996991157531738,
+        "confidence_entity": 0.9974219799041748,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -791,7 +924,7 @@
         "entity": "disciplinas",
         "start": 67,
         "end": 78,
-        "confidence_entity": 0.9994865655899048,
+        "confidence_entity": 0.9992613196372986,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -812,7 +945,7 @@
         "entity": "disciplinas",
         "start": 20,
         "end": 28,
-        "confidence_entity": 0.999685525894165,
+        "confidence_entity": 0.9994645714759827,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -836,7 +969,7 @@
         "entity": "disciplinas",
         "start": 25,
         "end": 36,
-        "confidence_entity": 0.9996834993362427,
+        "confidence_entity": 0.999484658241272,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -857,7 +990,7 @@
         "entity": "disciplinas",
         "start": 20,
         "end": 31,
-        "confidence_entity": 0.9997155070304871,
+        "confidence_entity": 0.9994562268257141,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -878,7 +1011,7 @@
         "entity": "disciplinas",
         "start": 20,
         "end": 28,
-        "confidence_entity": 0.9995111227035522,
+        "confidence_entity": 0.9992431402206421,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -902,7 +1035,7 @@
         "entity": "disciplinas",
         "start": 40,
         "end": 51,
-        "confidence_entity": 0.9996775388717651,
+        "confidence_entity": 0.9992687106132507,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -923,7 +1056,7 @@
         "entity": "disciplinas",
         "start": 22,
         "end": 33,
-        "confidence_entity": 0.9997159838676453,
+        "confidence_entity": 0.9994871616363525,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -944,7 +1077,7 @@
         "entity": "co-orientador",
         "start": 10,
         "end": 23,
-        "confidence_entity": 0.9930720925331116,
+        "confidence_entity": 0.989285409450531,
         "value": "co-orientador",
         "extractor": "DIETClassifier"
       }
@@ -965,7 +1098,7 @@
         "entity": "co-orientador",
         "start": 18,
         "end": 31,
-        "confidence_entity": 0.9922950267791748,
+        "confidence_entity": 0.9878140687942505,
         "value": "co-orientador",
         "extractor": "DIETClassifier"
       }
@@ -986,7 +1119,7 @@
         "entity": "disciplinas",
         "start": 18,
         "end": 29,
-        "confidence_entity": 0.9995555281639099,
+        "confidence_entity": 0.9993450045585632,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1007,7 +1140,7 @@
         "entity": "disciplinas",
         "start": 22,
         "end": 30,
-        "confidence_entity": 0.9995495676994324,
+        "confidence_entity": 0.9993708729743958,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1031,7 +1164,7 @@
         "entity": "disciplinas",
         "start": 22,
         "end": 33,
-        "confidence_entity": 0.999624490737915,
+        "confidence_entity": 0.9993618130683899,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1052,7 +1185,7 @@
         "entity": "disciplinas",
         "start": 15,
         "end": 26,
-        "confidence_entity": 0.9996185302734375,
+        "confidence_entity": 0.999359667301178,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1073,7 +1206,7 @@
         "entity": "disciplina",
         "start": 30,
         "end": 40,
-        "confidence_entity": 0.9669529795646667,
+        "confidence_entity": 0.9849911332130432,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1094,7 +1227,7 @@
         "entity": "disciplina",
         "start": 19,
         "end": 26,
-        "confidence_entity": 0.9975334405899048,
+        "confidence_entity": 0.9963821172714233,
         "value": "disciplina",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1118,7 +1251,7 @@
         "entity": "disciplina",
         "start": 18,
         "end": 28,
-        "confidence_entity": 0.9734392762184143,
+        "confidence_entity": 0.9829372763633728,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1139,7 +1272,7 @@
         "entity": "disciplinas",
         "start": 15,
         "end": 23,
-        "confidence_entity": 0.9960480332374573,
+        "confidence_entity": 0.9942795038223267,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1163,7 +1296,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 19,
-        "confidence_entity": 0.9984214305877686,
+        "confidence_entity": 0.9835471510887146,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1184,7 +1317,7 @@
         "entity": "disciplina",
         "start": 18,
         "end": 25,
-        "confidence_entity": 0.9974368214607239,
+        "confidence_entity": 0.9935494065284729,
         "value": "disciplina",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1208,7 +1341,7 @@
         "entity": "disciplinas",
         "start": 31,
         "end": 42,
-        "confidence_entity": 0.9986662864685059,
+        "confidence_entity": 0.995025098323822,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1229,7 +1362,7 @@
         "entity": "matr\u00edcula",
         "start": 31,
         "end": 40,
-        "confidence_entity": 0.9864565134048462,
+        "confidence_entity": 0.9919359683990479,
         "value": "matr\u00edcula",
         "extractor": "DIETClassifier"
       }
@@ -1250,7 +1383,7 @@
         "entity": "matr\u00edcula",
         "start": 27,
         "end": 36,
-        "confidence_entity": 0.9890494346618652,
+        "confidence_entity": 0.9891108870506287,
         "value": "matr\u00edcula",
         "extractor": "DIETClassifier"
       }
@@ -1271,7 +1404,7 @@
         "entity": "matr\u00edcula",
         "start": 36,
         "end": 45,
-        "confidence_entity": 0.9879549741744995,
+        "confidence_entity": 0.9886245727539062,
         "value": "matr\u00edcula",
         "extractor": "DIETClassifier"
       }
@@ -1292,7 +1425,7 @@
         "entity": "disciplinas",
         "start": 6,
         "end": 17,
-        "confidence_entity": 0.9995570778846741,
+        "confidence_entity": 0.9990746974945068,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1313,7 +1446,7 @@
         "entity": "disciplinas",
         "start": 4,
         "end": 15,
-        "confidence_entity": 0.999546468257904,
+        "confidence_entity": 0.9993149042129517,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1334,7 +1467,7 @@
         "entity": "disciplinas",
         "start": 13,
         "end": 21,
-        "confidence_entity": 0.9995607733726501,
+        "confidence_entity": 0.9993519186973572,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1358,7 +1491,7 @@
         "entity": "disciplinas",
         "start": 32,
         "end": 40,
-        "confidence_entity": 0.9995915293693542,
+        "confidence_entity": 0.9994506239891052,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1382,7 +1515,7 @@
         "entity": "disciplinas",
         "start": 4,
         "end": 12,
-        "confidence_entity": 0.9995551705360413,
+        "confidence_entity": 0.99936443567276,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1412,7 +1545,7 @@
         "entity": "frequencia",
         "start": 22,
         "end": 32,
-        "confidence_entity": 0.9860846996307373,
+        "confidence_entity": 0.99013352394104,
         "value": "frequencia",
         "extractor": "DIETClassifier"
       },
@@ -1420,7 +1553,7 @@
         "entity": "disciplina",
         "start": 54,
         "end": 64,
-        "confidence_entity": 0.9686058163642883,
+        "confidence_entity": 0.9927707314491272,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1447,7 +1580,7 @@
         "entity": "frequencia",
         "start": 7,
         "end": 17,
-        "confidence_entity": 0.9887210726737976,
+        "confidence_entity": 0.9902446269989014,
         "value": "frequ\u00eancia",
         "extractor": "DIETClassifier"
       },
@@ -1455,7 +1588,7 @@
         "entity": "disciplinas",
         "start": 41,
         "end": 52,
-        "confidence_entity": 0.9990409016609192,
+        "confidence_entity": 0.9980935454368591,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1473,10 +1606,10 @@
     ],
     "predicted_entities": [
       {
-        "entity": "disciplinas",
+        "entity": "disciplina",
         "start": 38,
         "end": 48,
-        "confidence_entity": 0.6672589182853699,
+        "confidence_entity": 0.5251968502998352,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1497,7 +1630,7 @@
         "entity": "disciplina",
         "start": 47,
         "end": 57,
-        "confidence_entity": 0.9915708303451538,
+        "confidence_entity": 0.9930962920188904,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1518,7 +1651,7 @@
         "entity": "disciplina",
         "start": 33,
         "end": 40,
-        "confidence_entity": 0.9985383749008179,
+        "confidence_entity": 0.9977884292602539,
         "value": "disciplina",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1542,7 +1675,7 @@
         "entity": "disciplina",
         "start": 37,
         "end": 47,
-        "confidence_entity": 0.9873409867286682,
+        "confidence_entity": 0.9920415282249451,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1563,7 +1696,7 @@
         "entity": "disciplina",
         "start": 40,
         "end": 50,
-        "confidence_entity": 0.9723353385925293,
+        "confidence_entity": 0.9837452173233032,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1584,7 +1717,7 @@
         "entity": "disciplina",
         "start": 32,
         "end": 42,
-        "confidence_entity": 0.9869829416275024,
+        "confidence_entity": 0.9922768473625183,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1605,7 +1738,7 @@
         "entity": "disciplinas",
         "start": 33,
         "end": 44,
-        "confidence_entity": 0.9996015429496765,
+        "confidence_entity": 0.998927652835846,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1626,7 +1759,7 @@
         "entity": "disciplinas",
         "start": 32,
         "end": 43,
-        "confidence_entity": 0.9995978474617004,
+        "confidence_entity": 0.9989256262779236,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1647,7 +1780,7 @@
         "entity": "disciplina",
         "start": 27,
         "end": 37,
-        "confidence_entity": 0.9588935375213623,
+        "confidence_entity": 0.9791433811187744,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1668,7 +1801,7 @@
         "entity": "disciplina",
         "start": 29,
         "end": 39,
-        "confidence_entity": 0.9758820533752441,
+        "confidence_entity": 0.9926865100860596,
         "value": "disciplina",
         "extractor": "DIETClassifier"
       }
@@ -1689,7 +1822,7 @@
         "entity": "disciplinas",
         "start": 26,
         "end": 34,
-        "confidence_entity": 0.9988659620285034,
+        "confidence_entity": 0.9992590546607971,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1713,7 +1846,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 19,
-        "confidence_entity": 0.9996737241744995,
+        "confidence_entity": 0.9993776679039001,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1734,7 +1867,7 @@
         "entity": "disciplinas",
         "start": 8,
         "end": 16,
-        "confidence_entity": 0.9994065761566162,
+        "confidence_entity": 0.9991697072982788,
         "value": "disciplinas",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1758,7 +1891,7 @@
         "entity": "banca",
         "start": 21,
         "end": 26,
-        "confidence_entity": 0.9979236125946045,
+        "confidence_entity": 0.9978106617927551,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1779,7 +1912,7 @@
         "entity": "banca",
         "start": 23,
         "end": 28,
-        "confidence_entity": 0.9973695278167725,
+        "confidence_entity": 0.9973498582839966,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1800,7 +1933,7 @@
         "entity": "banca",
         "start": 18,
         "end": 23,
-        "confidence_entity": 0.9979395270347595,
+        "confidence_entity": 0.9976621866226196,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1821,7 +1954,7 @@
         "entity": "banca",
         "start": 31,
         "end": 36,
-        "confidence_entity": 0.9947108030319214,
+        "confidence_entity": 0.9948210716247559,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1842,7 +1975,7 @@
         "entity": "banca",
         "start": 29,
         "end": 34,
-        "confidence_entity": 0.9967622756958008,
+        "confidence_entity": 0.9964029788970947,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1863,7 +1996,7 @@
         "entity": "banca",
         "start": 33,
         "end": 38,
-        "confidence_entity": 0.9977458119392395,
+        "confidence_entity": 0.9978116154670715,
         "value": "banca",
         "extractor": "DIETClassifier"
       }
@@ -1884,7 +2017,7 @@
         "entity": "disciplinas",
         "start": 22,
         "end": 33,
-        "confidence_entity": 0.9995874762535095,
+        "confidence_entity": 0.9970259070396423,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1905,7 +2038,7 @@
         "entity": "disciplinas",
         "start": 33,
         "end": 44,
-        "confidence_entity": 0.9996119141578674,
+        "confidence_entity": 0.9994471669197083,
         "value": "disciplinas",
         "extractor": "DIETClassifier"
       }
@@ -1926,7 +2059,7 @@
         "entity": "tema",
         "start": 36,
         "end": 46,
-        "confidence_entity": 0.9971505999565125,
+        "confidence_entity": 0.9952651262283325,
         "value": "blockchain",
         "extractor": "DIETClassifier"
       }
@@ -1947,7 +2080,7 @@
         "entity": "tema",
         "start": 36,
         "end": 39,
-        "confidence_entity": 0.9918248057365417,
+        "confidence_entity": 0.990913987159729,
         "value": "PLN",
         "extractor": "DIETClassifier"
       }
@@ -1968,7 +2101,7 @@
         "entity": "tema",
         "start": 36,
         "end": 55,
-        "confidence_entity": 0.983852744102478,
+        "confidence_entity": 0.9851345419883728,
         "value": "visao computacional",
         "extractor": "DIETClassifier"
       }
@@ -1989,7 +2122,7 @@
         "entity": "tema",
         "start": 36,
         "end": 38,
-        "confidence_entity": 0.9890802502632141,
+        "confidence_entity": 0.9801958203315735,
         "value": "IA",
         "extractor": "DIETClassifier"
       }
@@ -2010,7 +2143,7 @@
         "entity": "tema",
         "start": 43,
         "end": 53,
-        "confidence_entity": 0.9979660511016846,
+        "confidence_entity": 0.9969722032546997,
         "value": "blockchain",
         "extractor": "DIETClassifier"
       }
@@ -2031,7 +2164,7 @@
         "entity": "tema",
         "start": 43,
         "end": 46,
-        "confidence_entity": 0.9953563809394836,
+        "confidence_entity": 0.9954857230186462,
         "value": "PLN",
         "extractor": "DIETClassifier"
       }
@@ -2052,7 +2185,7 @@
         "entity": "tema",
         "start": 43,
         "end": 62,
-        "confidence_entity": 0.9895590543746948,
+        "confidence_entity": 0.9893016219139099,
         "value": "visao computacional",
         "extractor": "DIETClassifier"
       }
@@ -2073,7 +2206,7 @@
         "entity": "tema",
         "start": 43,
         "end": 45,
-        "confidence_entity": 0.9933305382728577,
+        "confidence_entity": 0.9904724359512329,
         "value": "IA",
         "extractor": "DIETClassifier"
       }
@@ -2094,7 +2227,7 @@
         "entity": "coordenador",
         "start": 20,
         "end": 31,
-        "confidence_entity": 0.9930964112281799,
+        "confidence_entity": 0.9938532114028931,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2115,7 +2248,7 @@
         "entity": "coordenador",
         "start": 17,
         "end": 28,
-        "confidence_entity": 0.9959893822669983,
+        "confidence_entity": 0.9945324659347534,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2136,7 +2269,7 @@
         "entity": "coordenador",
         "start": 17,
         "end": 28,
-        "confidence_entity": 0.995331346988678,
+        "confidence_entity": 0.9960648417472839,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2157,7 +2290,7 @@
         "entity": "coordenador",
         "start": 13,
         "end": 24,
-        "confidence_entity": 0.993594229221344,
+        "confidence_entity": 0.9953057169914246,
         "value": "coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2178,7 +2311,7 @@
         "entity": "vice-coordenador",
         "start": 20,
         "end": 36,
-        "confidence_entity": 0.9967421889305115,
+        "confidence_entity": 0.9959729313850403,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2199,7 +2332,7 @@
         "entity": "vice-coordenador",
         "start": 17,
         "end": 33,
-        "confidence_entity": 0.9981324076652527,
+        "confidence_entity": 0.9961841702461243,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2220,7 +2353,7 @@
         "entity": "vice-coordenador",
         "start": 17,
         "end": 33,
-        "confidence_entity": 0.9977905750274658,
+        "confidence_entity": 0.9967960715293884,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2241,7 +2374,7 @@
         "entity": "vice-coordenador",
         "start": 13,
         "end": 29,
-        "confidence_entity": 0.997285008430481,
+        "confidence_entity": 0.9963828325271606,
         "value": "vice-coordenador",
         "extractor": "DIETClassifier"
       }
@@ -2262,7 +2395,7 @@
         "entity": "comissao_pos",
         "start": 20,
         "end": 45,
-        "confidence_entity": 0.4322645962238312,
+        "confidence_entity": 0.5254215002059937,
         "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
         "extractor": "DIETClassifier"
       }
@@ -2283,7 +2416,7 @@
         "entity": "comissao_de_bolsas",
         "start": 17,
         "end": 35,
-        "confidence_entity": 0.3816105127334595,
+        "confidence_entity": 0.5472137331962585,
         "value": "comiss\u00e3o de bolsas",
         "extractor": "DIETClassifier"
       }
@@ -2304,7 +2437,7 @@
         "entity": "comissao_de_bolsas",
         "start": 17,
         "end": 35,
-        "confidence_entity": 0.3931208550930023,
+        "confidence_entity": 0.536279559135437,
         "value": "comiss\u00e3o de bolsas",
         "extractor": "DIETClassifier"
       }
@@ -2325,7 +2458,7 @@
         "entity": "comissao_de_bolsas",
         "start": 12,
         "end": 30,
-        "confidence_entity": 0.37146034836769104,
+        "confidence_entity": 0.5377244353294373,
         "value": "comiss\u00e3o de bolsas",
         "extractor": "DIETClassifier"
       }
@@ -2346,7 +2479,7 @@
         "entity": "orientador",
         "start": 25,
         "end": 35,
-        "confidence_entity": 0.9833130240440369,
+        "confidence_entity": 0.9927500486373901,
         "value": "orientador",
         "extractor": "DIETClassifier"
       }
@@ -2367,7 +2500,7 @@
         "entity": "orientador",
         "start": 18,
         "end": 28,
-        "confidence_entity": 0.9892413020133972,
+        "confidence_entity": 0.9902852177619934,
         "value": "orientador",
         "extractor": "DIETClassifier"
       }
@@ -2388,7 +2521,7 @@
         "entity": "orientador",
         "start": 13,
         "end": 23,
-        "confidence_entity": 0.9833278059959412,
+        "confidence_entity": 0.989388108253479,
         "value": "orientador",
         "extractor": "DIETClassifier"
       }
@@ -2409,7 +2542,7 @@
         "entity": "comissao_pos",
         "start": 23,
         "end": 48,
-        "confidence_entity": 0.42911097407341003,
+        "confidence_entity": 0.5692564845085144,
         "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
         "extractor": "DIETClassifier"
       }
@@ -2430,7 +2563,7 @@
         "entity": "comissao_pos",
         "start": 14,
         "end": 39,
-        "confidence_entity": 0.4088180661201477,
+        "confidence_entity": 0.5745671391487122,
         "value": "comiss\u00e3o de p\u00f3s-gradua\u00e7\u00e3o",
         "extractor": "DIETClassifier"
       }
@@ -2451,7 +2584,7 @@
         "entity": "corpo_docente",
         "start": 23,
         "end": 36,
-        "confidence_entity": 0.9974883794784546,
+        "confidence_entity": 0.9973199963569641,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -2472,7 +2605,7 @@
         "entity": "corpo_docente",
         "start": 11,
         "end": 24,
-        "confidence_entity": 0.9973305463790894,
+        "confidence_entity": 0.9965018033981323,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -2493,7 +2626,7 @@
         "entity": "corpo_docente",
         "start": 20,
         "end": 33,
-        "confidence_entity": 0.997333288192749,
+        "confidence_entity": 0.9969070553779602,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -2514,7 +2647,7 @@
         "entity": "corpo_docente",
         "start": 8,
         "end": 21,
-        "confidence_entity": 0.9972378015518188,
+        "confidence_entity": 0.9963990449905396,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -2535,7 +2668,7 @@
         "entity": "corpo_docente",
         "start": 18,
         "end": 31,
-        "confidence_entity": 0.9965225458145142,
+        "confidence_entity": 0.9951797723770142,
         "value": "corpo docente",
         "extractor": "DIETClassifier"
       }
@@ -2556,7 +2689,7 @@
         "entity": "colegiado",
         "start": 23,
         "end": 32,
-        "confidence_entity": 0.9747819304466248,
+        "confidence_entity": 0.9965603947639465,
         "value": "colegiado",
         "extractor": "DIETClassifier"
       }
@@ -2577,7 +2710,7 @@
         "entity": "colegiado",
         "start": 18,
         "end": 27,
-        "confidence_entity": 0.9735060334205627,
+        "confidence_entity": 0.9963780045509338,
         "value": "colegiado",
         "extractor": "DIETClassifier"
       }
@@ -2598,7 +2731,7 @@
         "entity": "colegiado",
         "start": 10,
         "end": 19,
-        "confidence_entity": 0.9792813062667847,
+        "confidence_entity": 0.9939613938331604,
         "value": "colegiado",
         "extractor": "DIETClassifier"
       }
@@ -2611,7 +2744,7 @@
         "start": 20,
         "end": 38,
         "value": "comiss\u00e3o de bolsas",
-        "entity": "comissao_bolsas"
+        "entity": "comissao_de_bolsas"
       }
     ],
     "predicted_entities": [
@@ -2619,7 +2752,7 @@
         "entity": "comissao_de_bolsas",
         "start": 20,
         "end": 38,
-        "confidence_entity": 0.3927454948425293,
+        "confidence_entity": 0.5104999542236328,
         "value": "comiss\u00e3o de bolsas",
         "extractor": "DIETClassifier"
       }
@@ -2632,7 +2765,7 @@
         "start": 14,
         "end": 32,
         "value": "comiss\u00e3o de bolsas",
-        "entity": "comissao_bolsas"
+        "entity": "comissao_de_bolsas"
       }
     ],
     "predicted_entities": [
@@ -2640,7 +2773,7 @@
         "entity": "comissao_de_bolsas",
         "start": 14,
         "end": 32,
-        "confidence_entity": 0.3609011769294739,
+        "confidence_entity": 0.5013466477394104,
         "value": "comiss\u00e3o de bolsas",
         "extractor": "DIETClassifier"
       }
